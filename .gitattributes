@@ -1,0 +1,6 @@
+*.npz binary
+*.h5 binary
+*.mp4 binary
+*.png binary
+*.jpg binary
+media/composition/assets/gsap.min.js -whitespace

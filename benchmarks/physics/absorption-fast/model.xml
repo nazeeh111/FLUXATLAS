@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<model>
+  <materials>
+    <cross_sections>/Users/nazeeh/Documents/Codex/2026-10-25/goal-2/outputs/FLUXATLAS/benchmarks/physics/absorption-fast/mgxs.h5</cross_sections>
+    <material id="1">
+      <density value="1.0" units="macro"/>
+      <macroscopic name="absorber"/>
+    </material>
+  </materials>
+  <geometry>
+    <cell id="1" material="1" region="1 -2 3 -4 5 -6" universe="1"/>
+    <surface id="1" type="x-plane" boundary="vacuum" coeffs="0"/>
+    <surface id="2" type="x-plane" boundary="vacuum" coeffs="12"/>
+    <surface id="3" type="y-plane" boundary="reflective" coeffs="0"/>
+    <surface id="4" type="y-plane" boundary="reflective" coeffs="1"/>
+    <surface id="5" type="z-plane" boundary="reflective" coeffs="0"/>
+    <surface id="6" type="z-plane" boundary="reflective" coeffs="1"/>
+  </geometry>
+  <settings>
+    <run_mode>fixed source</run_mode>
+    <particles>5000</particles>
+    <batches>20</batches>
+    <source type="independent" strength="1.0" particle="neutron">
+      <space type="point">
+        <parameters>1e-08 0.5 0.5</parameters>
+      </space>
+      <angle type="monodirectional" reference_uvw="1.0 0.0 0.0"/>
+      <energy type="discrete">
+        <parameters>1000000.0 1.0</parameters>
+      </energy>
+    </source>
+    <output>
+      <summary>false</summary>
+      <tallies>false</tallies>
+    </output>
+    <energy_mode>multi-group</energy_mode>
+    <seed>991</seed>
+  </settings>
+  <tallies>
+    <mesh id="1">
+      <dimension>30 1 1</dimension>
+      <lower_left>0 0 0</lower_left>
+      <upper_right>12 1 1</upper_right>
+    </mesh>
+    <filter id="1" type="mesh">
+      <bins>1</bins>
+    </filter>
+    <filter id="2" type="energy">
+      <bins>1e-05 1000.0 20000000.0</bins>
+    </filter>
+    <tally id="1" name="attenuation">
+      <filters>1 2</filters>
+      <scores>flux</scores>
+    </tally>
+  </tallies>
+</model>

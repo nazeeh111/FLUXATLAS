@@ -1,0 +1,9 @@
+{
+  "version": "0.1.0",
+  "installed_in_separate_venv": true,
+  "numeric_weights_load_without_pickle": true,
+  "hybrid_beam_enabled": true,
+  "installed_prediction_matches_export": true,
+  "cli_version_passed": true,
+  "passed": true
+}

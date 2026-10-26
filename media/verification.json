@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "output": "media/brag.mp4",
+  "poster": "media/brag.jpg",
+  "duration_seconds": 20.0,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 600,
+  "codec": "H.264",
+  "bytes": 2198852,
+  "audio": "Intentional silence; no narration or music requested for the instrument-film treatment.",
+  "render_runtime": "Hyperframes 0.8.33 pinned local runner, Chrome and FFmpeg; one worker, standard quality.",
+  "lint": {
+    "passed": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "layout": {
+    "passed": true,
+    "sample_times": [
+      1.111,
+      3.333,
+      5.556,
+      7.778,
+      10,
+      12.222,
+      14.444,
+      16.667,
+      18.889
+    ],
+    "errors": 0,
+    "warnings": 0,
+    "informational_notes": "Four zero-duration text overlap observations occur during deliberate crossfade handoffs. Settled scenes were visually inspected and do not overlap."
+  },
+  "contrast": {
+    "passed": true,
+    "sample_times": [
+      1.111,
+      5.556,
+      10,
+      14.444,
+      18.889
+    ],
+    "errors": 0,
+    "warnings": 0
+  },
+  "motion_audit_module": {
+    "enabled": false,
+    "interpretation": "Unavailable, not a passed motion audit. Deterministic timeline and representative browser/decoded video frames were inspected."
+  },
+  "full_ffmpeg_decode": "Passed with no decoding errors, process exit 0.",
+  "poster_baked_into_first_frame": true,
+  "poster_source_time_seconds": 8.0,
+  "visual_inspection": [
+    "Browser samples at 1.1, 5.6, 10.0, 14.4 and 18.9 seconds",
+    "Decoded first frame matches the selected settled reference/model comparison poster",
+    "Decoded 12.5-second research frame retains actual field error and history-matched study curves",
+    "Decoded 18.5-second closing frame uses the refreshed genuine observatory screenshot, including the wide-interval note"
+  ],
+  "numerical_evidence": {
+    "archive_sha256": "61fb3a81f319351f3d576280e23649edd6bb5ff90455373ab2767b532646fd9f",
+    "case_id": "test-141",
+    "selection_rule": "Held-out case nearest the median both-group field relative L2",
+    "configuration": {
+      "thickness": 4.937220063261529,
+      "density_scale": 1.0118735699715877,
+      "source_y": 0.6438330313600082,
+      "fast_fraction": 0.7189836607811522,
+      "family": "solid"
+    },
+    "histories": 40000,
+    "seed": 3015088,
+    "case_relative_l2": 0.054956189814130384,
+    "reference_flux_limits": [
+      8.968908098601175e-05,
+      0.8968908098601174
+    ],
+    "error_upper": 0.058026018779598676,
+    "trial_repeats": 3,
+    "source": "web/atlas.json",
+    "normalization": "cm^-2 per source particle",
+    "no_data_smoothing": true,
+    "protocol_version": 2,
+    "screenshot_sha256": "35a1b9db4fe8bc8bbf685d84b85435c4fad1238bfc080d637035edb8742791a6",
+    "screenshot_crop_pixels": {
+      "x": 0,
+      "y": 0,
+      "width": 1470,
+      "height": 1120
+    }
+  },
+  "sha256": {
+    "brag.mp4": "b40d20415bdb25468abb1a4b611422fc305cd5670eb01bc83ef5c69d7a115825",
+    "brag.jpg": "228fff091302120c9fd7af3175d11911c703eb112da534d78cadbd6bc1986cf0",
+    "composition/index.html": "3f64d1cede03c4d762cc3d7686079bb3a963167aa599ad4cda2bf840ca4c9b7b",
+    "composition/assets/observatory.png": "35a1b9db4fe8bc8bbf685d84b85435c4fad1238bfc080d637035edb8742791a6",
+    "composition/assets/observatory-crop.png": "d30413c30e71ca59d9e246f52282c2b1159928fbe11174199e9a412b39be0505"
+  }
+}

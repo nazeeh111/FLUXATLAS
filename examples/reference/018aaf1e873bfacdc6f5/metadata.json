@@ -1,0 +1,32 @@
+{
+  "config": {
+    "thickness": 3.0,
+    "density_scale": 1.0,
+    "source_y": 0.0,
+    "fast_fraction": 0.8,
+    "family": "solid"
+  },
+  "seed": 123457,
+  "particles_per_batch": 1000,
+  "batches": 20,
+  "histories": 20000,
+  "solver": "OpenMC",
+  "solver_version": "0.16.0",
+  "units": "cm^-2 per source particle",
+  "energy_edges_eV": [
+    1e-05,
+    1000.0,
+    20000000.0
+  ],
+  "shape": [
+    2,
+    20,
+    24
+  ],
+  "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+  "seconds": 1.5909697089809924,
+  "transport_seconds": 0.696103539,
+  "cache_key": "018aaf1e873bfacdc6f5",
+  "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+  "schema_version": 1
+}

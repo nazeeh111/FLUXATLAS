@@ -1,0 +1,23 @@
+{
+  "purpose": "Independent review: heterogeneous pure-absorption beam check; scattering zeroed only within this isolated Python process. Production source unmodified.",
+  "config": {
+    "thickness": 2.37,
+    "density_scale": 1.17,
+    "source_y": 1.13,
+    "fast_fraction": 0.73,
+    "family": "solid"
+  },
+  "histories": 100000,
+  "seed": 192031,
+  "solver_version": "0.16.0",
+  "relative_l2": 0.0028425802580623397,
+  "group_relative_l2": [
+    0.005537099714376537,
+    0.002333615487527952
+  ],
+  "fraction_within_3se_nonzero": [
+    0.9583333333333334,
+    1.0
+  ],
+  "outside_beam_max": 0.0
+}

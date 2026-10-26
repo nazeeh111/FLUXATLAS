@@ -1,0 +1,1 @@
+FLUXATLAS pairs independent OpenMC transport with trained neural field predictions, visible uncertainty and a reproducible research record. Educational synthetic data, open source: https://github.com/nazeeh111/FLUXATLAS

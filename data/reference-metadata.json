@@ -1,0 +1,4994 @@
+[
+  {
+    "config": {
+      "thickness": 1.6573809021756158,
+      "density_scale": 1.3205901641629925,
+      "source_y": -1.533747752146437,
+      "fast_fraction": 0.7563430381781343,
+      "family": "solid"
+    },
+    "seed": 100003,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.7119514170335606,
+    "transport_seconds": 0.8008523759999999,
+    "cache_key": "58db5920b9b133d01c4f",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.4220500490990649,
+      "density_scale": 0.8898734949876669,
+      "source_y": -2.2249381212637216,
+      "fast_fraction": 0.6665777433444527,
+      "family": "solid"
+    },
+    "seed": 100104,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.7484520829748362,
+    "transport_seconds": 0.472406753,
+    "cache_key": "ef6e3a5e54ab9d1d0bbe",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.983889568980862,
+      "density_scale": 0.9426154779269149,
+      "source_y": 2.162777662893439,
+      "fast_fraction": 0.9709963571178123,
+      "family": "solid"
+    },
+    "seed": 100205,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.631377000012435,
+    "transport_seconds": 0.4238807070000001,
+    "cache_key": "09b39b32e897aa678601",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.037980626077045,
+      "density_scale": 1.1087440256452892,
+      "source_y": 1.9942478389596703,
+      "fast_fraction": 0.7456656025065064,
+      "family": "solid"
+    },
+    "seed": 100306,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.837483249953948,
+    "transport_seconds": 0.576754334,
+    "cache_key": "bebee80c915d22cf018e",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.7042336769863957,
+      "density_scale": 0.6135844568250565,
+      "source_y": 1.8523212367341326,
+      "fast_fraction": 0.7220304471370346,
+      "family": "solid"
+    },
+    "seed": 100407,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.602196125080809,
+    "transport_seconds": 0.40202396,
+    "cache_key": "5f63ed430286e1e8ebbe",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.3589845080095353,
+      "density_scale": 1.134469431217591,
+      "source_y": 0.6803173422747246,
+      "fast_fraction": 0.8811391758278,
+      "family": "solid"
+    },
+    "seed": 100508,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.8592771670082584,
+    "transport_seconds": 0.594413836,
+    "cache_key": "d53f6e3b5d95c2c1b657",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.5275849146669132,
+      "density_scale": 0.837115790741149,
+      "source_y": 2.996667372901152,
+      "fast_fraction": 0.9734280789719293,
+      "family": "solid"
+    },
+    "seed": 100609,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.0067706250119954,
+    "transport_seconds": 0.687686875,
+    "cache_key": "53029e7aa7892e1940e7",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.06654674091397,
+      "density_scale": 1.2578372407923353,
+      "source_y": -2.4339884746295386,
+      "fast_fraction": 0.9168586071721849,
+      "family": "solid"
+    },
+    "seed": 100710,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.751009540981613,
+    "transport_seconds": 0.885170792,
+    "cache_key": "a46017c95f9917410cc3",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.495314138747801,
+      "density_scale": 1.3890564272898258,
+      "source_y": -2.062454493011904,
+      "fast_fraction": 0.9803837556223778,
+      "family": "solid"
+    },
+    "seed": 100811,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 2.8209022500086576,
+    "transport_seconds": 2.0557862910000004,
+    "cache_key": "91db7d28acee0fd5c01a",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.756977239579383,
+      "density_scale": 1.2042969522436182,
+      "source_y": 1.5758274250725295,
+      "fast_fraction": 0.7501343326535245,
+      "family": "solid"
+    },
+    "seed": 100912,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 3.630009875050746,
+    "transport_seconds": 3.0422149610000004,
+    "cache_key": "f769604f4d7131033dff",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.798602321990197,
+      "density_scale": 0.6606576019159038,
+      "source_y": 0.1046748242611244,
+      "fast_fraction": 0.8561969349493617,
+      "family": "solid"
+    },
+    "seed": 101013,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.4581774580292404,
+    "transport_seconds": 1.18648879,
+    "cache_key": "a6e564eec6e0c08bbc6a",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.8983081555337833,
+      "density_scale": 0.753749259056022,
+      "source_y": -1.9820992051062176,
+      "fast_fraction": 0.9180950582425774,
+      "family": "solid"
+    },
+    "seed": 101114,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.8644501249073073,
+    "transport_seconds": 1.601043415,
+    "cache_key": "6df7db7d979b8550d34f",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.302229298779187,
+      "density_scale": 0.7281976154606811,
+      "source_y": 2.815877943235641,
+      "fast_fraction": 0.7255980463476686,
+      "family": "solid"
+    },
+    "seed": 101215,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.299540749983862,
+    "transport_seconds": 0.9702798339999998,
+    "cache_key": "1e18b1fe4a0e23bc5c1c",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.113322718711979,
+      "density_scale": 0.8954507613619421,
+      "source_y": 0.5961496598469282,
+      "fast_fraction": 0.7266842506045195,
+      "family": "solid"
+    },
+    "seed": 101316,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 3.9532757909037173,
+    "transport_seconds": 3.660076126999999,
+    "cache_key": "e5c283283ee3973412f7",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.9672406832346727,
+      "density_scale": 1.2633556073637813,
+      "source_y": -1.8983011654584376,
+      "fast_fraction": 0.9978081155114856,
+      "family": "solid"
+    },
+    "seed": 101417,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.1878994170110673,
+    "transport_seconds": 0.984310791,
+    "cache_key": "a1afa7a08fc1760a9e8a",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.898619756749981,
+      "density_scale": 0.9344943034155813,
+      "source_y": 0.12875216698666625,
+      "fast_fraction": 0.8737385099070296,
+      "family": "solid"
+    },
+    "seed": 101518,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.4204073750879616,
+    "transport_seconds": 1.0324938350000001,
+    "cache_key": "b33fd0d56ed02d119801",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.1633818396261653,
+      "density_scale": 0.7802416269419918,
+      "source_y": -2.8054447756352445,
+      "fast_fraction": 0.8272712511814923,
+      "family": "solid"
+    },
+    "seed": 101619,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.2197010000236332,
+    "transport_seconds": 0.7240789989999998,
+    "cache_key": "3465a714efc652f1d795",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.460672294251188,
+      "density_scale": 0.7910112528271951,
+      "source_y": 1.6479703686785054,
+      "fast_fraction": 0.8689478657106441,
+      "family": "solid"
+    },
+    "seed": 101720,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.7981405410682783,
+    "transport_seconds": 0.5757923319999999,
+    "cache_key": "f5a3cf18b9d9052a3121",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.174305425757095,
+      "density_scale": 0.981285819785341,
+      "source_y": 0.9371949121064169,
+      "fast_fraction": 0.8477305306735461,
+      "family": "solid"
+    },
+    "seed": 101821,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.26604016602505,
+    "transport_seconds": 0.972475042,
+    "cache_key": "3ae87c4ae89c5295b90b",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.790875657928779,
+      "density_scale": 0.8355486869419251,
+      "source_y": 1.9124316019429282,
+      "fast_fraction": 0.9314147278847591,
+      "family": "solid"
+    },
+    "seed": 101922,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.1459686249727383,
+    "transport_seconds": 0.6485717090000002,
+    "cache_key": "e83d96a89ada59bb93a0",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.757220536145091,
+      "density_scale": 0.8445874990323219,
+      "source_y": 1.9525189894874808,
+      "fast_fraction": 0.9592183800167501,
+      "family": "solid"
+    },
+    "seed": 102023,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.4029710839968175,
+    "transport_seconds": 1.1995025830000001,
+    "cache_key": "7a39536a0e69e7011fc4",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.7111887159524555,
+      "density_scale": 0.9069950152491092,
+      "source_y": 0.06976081387370936,
+      "fast_fraction": 0.8012717408888476,
+      "family": "solid"
+    },
+    "seed": 102124,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.7136181249516085,
+    "transport_seconds": 0.5441285410000001,
+    "cache_key": "ab891852b8670d946d26",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.427030247208081,
+      "density_scale": 0.9222003325530206,
+      "source_y": -2.6094248164017957,
+      "fast_fraction": 0.7628320952236689,
+      "family": "solid"
+    },
+    "seed": 102225,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.1776307910913602,
+    "transport_seconds": 0.769624414,
+    "cache_key": "1d76d355bb7ac574da86",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.2015148236960893,
+      "density_scale": 0.8530415689994906,
+      "source_y": -2.1571308749766445,
+      "fast_fraction": 0.6750644249787499,
+      "family": "solid"
+    },
+    "seed": 102326,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 2.7175268749706447,
+    "transport_seconds": 2.1488657510000007,
+    "cache_key": "b8b4ffc7836147b18c10",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.738999505743489,
+      "density_scale": 1.356433799868968,
+      "source_y": 1.3662688806776035,
+      "fast_fraction": 0.9686387612992635,
+      "family": "solid"
+    },
+    "seed": 102427,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.9796659999992698,
+    "transport_seconds": 0.633544581,
+    "cache_key": "33d85084bbbff6b331b4",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.299185785920825,
+      "density_scale": 1.0906629974333804,
+      "source_y": -2.3304642841992114,
+      "fast_fraction": 0.6075314918301398,
+      "family": "solid"
+    },
+    "seed": 102528,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.4174333330010995,
+    "transport_seconds": 1.27321275,
+    "cache_key": "4b04041544dc1e56fa72",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.01850184903745,
+      "density_scale": 0.618651271710978,
+      "source_y": -2.621616441297424,
+      "fast_fraction": 0.7321504428442979,
+      "family": "solid"
+    },
+    "seed": 102629,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.1534438750240952,
+    "transport_seconds": 0.9615826249999999,
+    "cache_key": "8be2752f5027d88d6108",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.8887552651630104,
+      "density_scale": 1.1806314029745466,
+      "source_y": -2.6752999259858736,
+      "fast_fraction": 0.6251390020032969,
+      "family": "solid"
+    },
+    "seed": 102730,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.5028029580134898,
+    "transport_seconds": 1.140435461,
+    "cache_key": "9666b5b749386c40d99b",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.099068731606334,
+      "density_scale": 1.0869064619740019,
+      "source_y": 0.008684594692452308,
+      "fast_fraction": 0.947577344756065,
+      "family": "solid"
+    },
+    "seed": 102831,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.2097149160690606,
+    "transport_seconds": 0.9000095389999999,
+    "cache_key": "4e41c80d04b7ee2c0b1e",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.477395345466573,
+      "density_scale": 1.013419880697347,
+      "source_y": 2.2669877121841937,
+      "fast_fraction": 0.7194685738025968,
+      "family": "solid"
+    },
+    "seed": 102932,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.7848488750169054,
+    "transport_seconds": 1.4586577929999998,
+    "cache_key": "1b7222f762cbe813f7a9",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.210635395426761,
+      "density_scale": 1.3950968858055697,
+      "source_y": -2.9291776471589226,
+      "fast_fraction": 0.8451801764260185,
+      "family": "solid"
+    },
+    "seed": 103033,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 3.941758874920197,
+    "transport_seconds": 3.4961555399999997,
+    "cache_key": "70d4e17e1cf7dcc8cd5e",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.3161441665946816,
+      "density_scale": 0.7793200480979863,
+      "source_y": -0.6559240617108419,
+      "fast_fraction": 0.8758212740032247,
+      "family": "solid"
+    },
+    "seed": 103134,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 4.8625977910123765,
+    "transport_seconds": 3.4561667910000002,
+    "cache_key": "406f64e1f2ffb8d36116",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.2836358148576312,
+      "density_scale": 1.0497478672938376,
+      "source_y": 0.7744101817910436,
+      "fast_fraction": 0.8931135357927728,
+      "family": "solid"
+    },
+    "seed": 103235,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 2.7509522499749437,
+    "transport_seconds": 2.512572332,
+    "cache_key": "f034b2870ef843e71b42",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.0770920413290803,
+      "density_scale": 1.1894404254214752,
+      "source_y": -1.4127405485210986,
+      "fast_fraction": 0.7983180988541947,
+      "family": "solid"
+    },
+    "seed": 103336,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.7000710420543328,
+    "transport_seconds": 1.344658334,
+    "cache_key": "b1ce407f46bdab3cce65",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.065582710782576,
+      "density_scale": 1.307973793564165,
+      "source_y": 0.8909862495317644,
+      "fast_fraction": 0.878709566122519,
+      "family": "solid"
+    },
+    "seed": 103437,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.5311940830433741,
+    "transport_seconds": 1.294296621,
+    "cache_key": "4eb14f753fc3500da344",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.7250773540753626,
+      "density_scale": 1.1164897874051887,
+      "source_y": -0.030306330832143402,
+      "fast_fraction": 0.8210319402029805,
+      "family": "solid"
+    },
+    "seed": 103538,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 3.5182290830416605,
+    "transport_seconds": 3.0197042499999998,
+    "cache_key": "99826a9a4c28e5b41f62",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.125593255016393,
+      "density_scale": 1.3904705791649172,
+      "source_y": 0.4571188924167746,
+      "fast_fraction": 0.7307449023960032,
+      "family": "solid"
+    },
+    "seed": 103639,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 3.1588121249806136,
+    "transport_seconds": 2.4327031239999997,
+    "cache_key": "148f73c9c4cc76e3f561",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.5467281847187495,
+      "density_scale": 1.1225942180134223,
+      "source_y": -1.8125613085491485,
+      "fast_fraction": 0.6122093294243391,
+      "family": "solid"
+    },
+    "seed": 103740,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 3.155957499984652,
+    "transport_seconds": 2.2449848740000005,
+    "cache_key": "03b715fbe203a42932ba",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.663185943879472,
+      "density_scale": 0.8280447844865725,
+      "source_y": -1.7333134336531852,
+      "fast_fraction": 0.6334063016624524,
+      "family": "solid"
+    },
+    "seed": 103841,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 3.45798058307264,
+    "transport_seconds": 3.0611049980000007,
+    "cache_key": "0275fe2290bf2f81565e",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.013931596398171,
+      "density_scale": 0.7714787080975745,
+      "source_y": -2.7271031013319686,
+      "fast_fraction": 0.8340288352441795,
+      "family": "solid"
+    },
+    "seed": 103942,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 3.7790050000185147,
+    "transport_seconds": 3.337647878,
+    "cache_key": "9883c658bb28ee1bf031",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.4048469555076126,
+      "density_scale": 1.328530540143588,
+      "source_y": -2.9082044425456726,
+      "fast_fraction": 0.8247587459669717,
+      "family": "solid"
+    },
+    "seed": 104043,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 3.702687584096566,
+    "transport_seconds": 2.6939862039999998,
+    "cache_key": "b8bb73a1e44fd2d6a0c6",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.2760972115150309,
+      "density_scale": 1.062137945646934,
+      "source_y": 1.1319332858352311,
+      "fast_fraction": 0.8300976414790218,
+      "family": "solid"
+    },
+    "seed": 104144,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 8.106309999944642,
+    "transport_seconds": 5.809732126,
+    "cache_key": "1bf01952847ae5267bbb",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.5460697553066343,
+      "density_scale": 1.1450970353757532,
+      "source_y": -1.6160044783573115,
+      "fast_fraction": 0.903507850844101,
+      "family": "solid"
+    },
+    "seed": 104245,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 7.026922624907456,
+    "transport_seconds": 6.046651415999999,
+    "cache_key": "d017aec174c99e27672f",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.265732868806474,
+      "density_scale": 1.1676365487840357,
+      "source_y": 2.675478623913804,
+      "fast_fraction": 0.8108832621252616,
+      "family": "solid"
+    },
+    "seed": 104346,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 9.80765224993229,
+    "transport_seconds": 8.109516626,
+    "cache_key": "018d03491bcceb461b9f",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.2334220789335881,
+      "density_scale": 0.869730190772546,
+      "source_y": 0.7285112499227764,
+      "fast_fraction": 0.6813158420648867,
+      "family": "solid"
+    },
+    "seed": 104447,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 3.426378000061959,
+    "transport_seconds": 2.9153270850000004,
+    "cache_key": "b3d191802d4dba7d71e0",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.6552375818692617,
+      "density_scale": 1.2880423946229835,
+      "source_y": 0.5273853609583163,
+      "fast_fraction": 0.6592874218367482,
+      "family": "solid"
+    },
+    "seed": 104548,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 2.4144979580305517,
+    "transport_seconds": 1.9367524589999996,
+    "cache_key": "619fabf18dfdd25fa188",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.9635323643122558,
+      "density_scale": 1.3030889080740213,
+      "source_y": 1.580357614340362,
+      "fast_fraction": 0.9624506427475015,
+      "family": "solid"
+    },
+    "seed": 104649,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 3.4300294159911573,
+    "transport_seconds": 2.894227044,
+    "cache_key": "36498e30bb2647de56b6",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.325293392487012,
+      "density_scale": 1.2196253888609814,
+      "source_y": 1.653984164843501,
+      "fast_fraction": 0.7691457577017549,
+      "family": "solid"
+    },
+    "seed": 104750,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 5.248722583986819,
+    "transport_seconds": 4.317543708,
+    "cache_key": "a9cccc52dc46bfd784c2",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.8848656129639347,
+      "density_scale": 0.6544369263257189,
+      "source_y": -0.5286827567790442,
+      "fast_fraction": 0.9351035231625449,
+      "family": "solid"
+    },
+    "seed": 104851,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 3.5576419580029324,
+    "transport_seconds": 2.858588003,
+    "cache_key": "57368d3120891aefae15",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.5098816532288222,
+      "density_scale": 1.171974037122152,
+      "source_y": 2.4458022239939297,
+      "fast_fraction": 0.6202368790492476,
+      "family": "solid"
+    },
+    "seed": 104952,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 4.531809333013371,
+    "transport_seconds": 4.281654628999999,
+    "cache_key": "2a1c8db314ec2ed897fa",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.9397695489381155,
+      "density_scale": 0.755396003751851,
+      "source_y": -0.48965426403999146,
+      "fast_fraction": 0.8662233981066794,
+      "family": "solid"
+    },
+    "seed": 105053,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 5.434288750053383,
+    "transport_seconds": 5.109733749999998,
+    "cache_key": "47a1785ccc16b8ef68e1",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.69363116108964,
+      "density_scale": 0.6364125391779237,
+      "source_y": -0.18567395569827383,
+      "fast_fraction": 0.6676074529868179,
+      "family": "solid"
+    },
+    "seed": 105154,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 5.5583098330534995,
+    "transport_seconds": 4.625933333000001,
+    "cache_key": "c2e13185e9254a8ef962",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.6156781890034404,
+      "density_scale": 1.0774391520401545,
+      "source_y": -1.9356449941357097,
+      "fast_fraction": 0.9296535972810612,
+      "family": "solid"
+    },
+    "seed": 105255,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.974060791078955,
+    "transport_seconds": 1.824780376,
+    "cache_key": "8c0595198354d577d747",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.522753797427346,
+      "density_scale": 1.2773546581284203,
+      "source_y": 2.3227019570371867,
+      "fast_fraction": 0.6153108318816004,
+      "family": "solid"
+    },
+    "seed": 105356,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 2.76161770906765,
+    "transport_seconds": 2.2907859210000003,
+    "cache_key": "bec33d667c742df75132",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.6445599441409064,
+      "density_scale": 0.7988427035071974,
+      "source_y": 2.7099916654459024,
+      "fast_fraction": 0.8885342973409849,
+      "family": "solid"
+    },
+    "seed": 105457,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 2.2431117079686373,
+    "transport_seconds": 1.970779502,
+    "cache_key": "4d29b75b34d07c24633f",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.39071035093467,
+      "density_scale": 0.8208259593017886,
+      "source_y": 0.41752654189256866,
+      "fast_fraction": 0.9250665367351131,
+      "family": "solid"
+    },
+    "seed": 105558,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.5050586248980835,
+    "transport_seconds": 1.2715032080000002,
+    "cache_key": "55911f9b7d38d3e51c81",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.339966145422574,
+      "density_scale": 1.193455266506854,
+      "source_y": -2.9988979521622254,
+      "fast_fraction": 0.6581276689279996,
+      "family": "solid"
+    },
+    "seed": 105659,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.5749904579715803,
+    "transport_seconds": 1.429503373,
+    "cache_key": "11c8c284ae77f08d2962",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.5636222776569157,
+      "density_scale": 1.239001490652476,
+      "source_y": 2.592679945818208,
+      "fast_fraction": 0.7094170301589204,
+      "family": "solid"
+    },
+    "seed": 105760,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.3273976249620318,
+    "transport_seconds": 1.2169601670000003,
+    "cache_key": "c05f3f5f4360333e573b",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.257785277330745,
+      "density_scale": 0.7148935782376332,
+      "source_y": -2.078708078287455,
+      "fast_fraction": 0.6291476211181741,
+      "family": "solid"
+    },
+    "seed": 105861,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.8999251660425216,
+    "transport_seconds": 0.759616544,
+    "cache_key": "c8a7376b14439d4f0bd3",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.6721680240215995,
+      "density_scale": 0.6431332351570186,
+      "source_y": 0.35545210038877606,
+      "fast_fraction": 0.7800649678252785,
+      "family": "solid"
+    },
+    "seed": 105962,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.2817395830061287,
+    "transport_seconds": 1.2055917500000002,
+    "cache_key": "a686dc01cdb33222bfe6",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.3514284596293122,
+      "density_scale": 0.6902228124610389,
+      "source_y": 0.861738610830669,
+      "fast_fraction": 0.6998658605234139,
+      "family": "solid"
+    },
+    "seed": 106063,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.7829770420212299,
+    "transport_seconds": 0.5616765400000001,
+    "cache_key": "1387209c4c872663da4e",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.926896645448818,
+      "density_scale": 0.6621945981022591,
+      "source_y": 0.6200460517603013,
+      "fast_fraction": 0.7853640737540165,
+      "family": "solid"
+    },
+    "seed": 106164,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.7602825419744477,
+    "transport_seconds": 0.645652626,
+    "cache_key": "999f95f9efa09bc741f6",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.824382315601546,
+      "density_scale": 0.9086882421421903,
+      "source_y": 0.1886882453204768,
+      "fast_fraction": 0.6002220699596598,
+      "family": "solid"
+    },
+    "seed": 106265,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.6093743339879438,
+    "transport_seconds": 0.404132459,
+    "cache_key": "4e75f5a21a6da5e2346f",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.4592454337816583,
+      "density_scale": 0.7091297360119597,
+      "source_y": 1.15397292305844,
+      "fast_fraction": 0.8706691481990474,
+      "family": "solid"
+    },
+    "seed": 106366,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.6020695409970358,
+    "transport_seconds": 0.455477083,
+    "cache_key": "7f28f1189d3eb5c1a390",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.861788061890469,
+      "density_scale": 0.9300908626641451,
+      "source_y": -2.2796376455163534,
+      "fast_fraction": 0.9360317308947277,
+      "family": "solid"
+    },
+    "seed": 106467,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.4658367909723893,
+    "transport_seconds": 0.393202502,
+    "cache_key": "2db3c29ee7584c5fa9be",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.6702887736681085,
+      "density_scale": 0.9530492667629122,
+      "source_y": 2.5740382421660986,
+      "fast_fraction": 0.6208629122320355,
+      "family": "solid"
+    },
+    "seed": 106568,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.43322933302260935,
+    "transport_seconds": 0.25257495799999996,
+    "cache_key": "e4e3c2bdebefe7bbba27",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.3270103408575062,
+      "density_scale": 0.9274587803778811,
+      "source_y": 0.28181292526831925,
+      "fast_fraction": 0.6488450078657796,
+      "family": "solid"
+    },
+    "seed": 106669,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.5886167079443112,
+    "transport_seconds": 0.3743288780000001,
+    "cache_key": "e8c56188915883872616",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.9038890104126076,
+      "density_scale": 1.25104618191157,
+      "source_y": 2.5317069912880372,
+      "fast_fraction": 0.8045351084806589,
+      "family": "solid"
+    },
+    "seed": 106770,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.4869957079645246,
+    "transport_seconds": 0.264067207,
+    "cache_key": "dce3c167fa7c094b261e",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.4358447129033456,
+      "density_scale": 1.0944299845486767,
+      "source_y": -1.1118338149051687,
+      "fast_fraction": 0.7961787903016542,
+      "family": "solid"
+    },
+    "seed": 106871,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.5645158750703558,
+    "transport_seconds": 0.39290204,
+    "cache_key": "0e57af65e47b72639071",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.4366998658852985,
+      "density_scale": 1.157234894879476,
+      "source_y": 2.0110921381998352,
+      "fast_fraction": 0.7601064498108037,
+      "family": "solid"
+    },
+    "seed": 106972,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.4209276660112664,
+    "transport_seconds": 0.23058749899999997,
+    "cache_key": "4a2f14f786533dcfe804",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.252746909922177,
+      "density_scale": 0.8726097136619037,
+      "source_y": -0.7741942206568408,
+      "fast_fraction": 0.7127150847646838,
+      "family": "solid"
+    },
+    "seed": 107073,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.5707307090051472,
+    "transport_seconds": 0.333739334,
+    "cache_key": "ffb3a39a24e95a646d65",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.189440205580279,
+      "density_scale": 1.2075093008395286,
+      "source_y": 2.2227537485927726,
+      "fast_fraction": 0.8501574025709518,
+      "family": "solid"
+    },
+    "seed": 107174,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.7507207499584183,
+    "transport_seconds": 0.513327704,
+    "cache_key": "326e6b440c38ed487693",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.743543687354429,
+      "density_scale": 0.996560001011908,
+      "source_y": 0.2032167776326368,
+      "fast_fraction": 0.6944656490264685,
+      "family": "solid"
+    },
+    "seed": 107275,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.4862658749334514,
+    "transport_seconds": 0.273948249,
+    "cache_key": "1304ed85b926e4dcab48",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.572355457266157,
+      "density_scale": 0.8990438268728428,
+      "source_y": -2.837168798083463,
+      "fast_fraction": 0.950063987979941,
+      "family": "solid"
+    },
+    "seed": 107376,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.3735788749763742,
+    "transport_seconds": 0.23924362700000001,
+    "cache_key": "01553d811c2a45729134",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.592775140496711,
+      "density_scale": 0.8138884809457732,
+      "source_y": 1.3009137009844807,
+      "fast_fraction": 0.8157565864321212,
+      "family": "solid"
+    },
+    "seed": 107477,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.45656070800032467,
+    "transport_seconds": 0.290547,
+    "cache_key": "9137d8d714a9e87bacea",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.0028153711416072,
+      "density_scale": 0.8661591279682479,
+      "source_y": 1.8302051340390264,
+      "fast_fraction": 0.7394611593481286,
+      "family": "solid"
+    },
+    "seed": 107578,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.2475869170157239,
+    "transport_seconds": 0.984146165,
+    "cache_key": "5abfd4bb1730020af69f",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.982649634153821,
+      "density_scale": 0.7386071456006431,
+      "source_y": -1.8831784467140602,
+      "fast_fraction": 0.7665621666365124,
+      "family": "solid"
+    },
+    "seed": 107679,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.5983001670101658,
+    "transport_seconds": 0.476328834,
+    "cache_key": "8182fb8da9c5d1bff8f7",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.799600911280594,
+      "density_scale": 1.1060216762915975,
+      "source_y": -2.4699251828159383,
+      "fast_fraction": 0.9839376819986078,
+      "family": "solid"
+    },
+    "seed": 107780,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.6981448750011623,
+    "transport_seconds": 0.540851248,
+    "cache_key": "5db6e2052ae6516ed843",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.180856607263261,
+      "density_scale": 0.6003502962541026,
+      "source_y": -2.5532774203581594,
+      "fast_fraction": 0.6042325903660473,
+      "family": "solid"
+    },
+    "seed": 107881,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.5472607919946313,
+    "transport_seconds": 0.382407499,
+    "cache_key": "54640f8b7e6b467382f7",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.36619787625383,
+      "density_scale": 1.2259599405512005,
+      "source_y": 0.565990677794947,
+      "fast_fraction": 0.9076974123427619,
+      "family": "solid"
+    },
+    "seed": 107982,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.40547945897560567,
+    "transport_seconds": 0.28782841800000003,
+    "cache_key": "96d18ba63edf869deb90",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.3736198433790838,
+      "density_scale": 0.9154895898632801,
+      "source_y": 0.3296828655368982,
+      "fast_fraction": 0.6886821975028666,
+      "family": "solid"
+    },
+    "seed": 108083,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.9619648330844939,
+    "transport_seconds": 0.793828749,
+    "cache_key": "dacc8ad9271a2a997308",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.252325843331712,
+      "density_scale": 1.3013919376784695,
+      "source_y": 2.756479312774742,
+      "fast_fraction": 0.7528485762539352,
+      "family": "solid"
+    },
+    "seed": 108184,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.9030180840054527,
+    "transport_seconds": 0.770823878,
+    "cache_key": "a04c0f297cc222c91538",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.6969964632367658,
+      "density_scale": 0.6286450389442305,
+      "source_y": -1.4817660109716009,
+      "fast_fraction": 0.9907447650890021,
+      "family": "solid"
+    },
+    "seed": 108285,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.8843359580496326,
+    "transport_seconds": 0.804577711,
+    "cache_key": "d5f89c37ba06347a8b31",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.1742934355853158,
+      "density_scale": 0.7680725773555606,
+      "source_y": -1.7024864665048742,
+      "fast_fraction": 0.8377544231851272,
+      "family": "solid"
+    },
+    "seed": 108386,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.6014295840868726,
+    "transport_seconds": 1.456147372,
+    "cache_key": "432ef422d627c26b6d9c",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.347019098429297,
+      "density_scale": 1.2736842393430579,
+      "source_y": 2.1409908970224008,
+      "fast_fraction": 0.9973688768292279,
+      "family": "solid"
+    },
+    "seed": 108487,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.5717193749733269,
+    "transport_seconds": 0.47101712400000006,
+    "cache_key": "45aba237118a481a7169",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.8624893447680257,
+      "density_scale": 1.0388246938918773,
+      "source_y": -0.5981969240438225,
+      "fast_fraction": 0.7366291938443945,
+      "family": "solid"
+    },
+    "seed": 108588,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.8229973749257624,
+    "transport_seconds": 0.740507376,
+    "cache_key": "522f6c934100851c4355",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.7344316741918475,
+      "density_scale": 0.8775574916090972,
+      "source_y": 1.4805210622474618,
+      "fast_fraction": 0.6788265142160897,
+      "family": "solid"
+    },
+    "seed": 108689,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.6368254169356078,
+    "transport_seconds": 0.5630426690000001,
+    "cache_key": "e258cfc02c0fe88760c2",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.097962159671735,
+      "density_scale": 1.325528030068536,
+      "source_y": 1.7274687197648824,
+      "fast_fraction": 0.6623854405298413,
+      "family": "solid"
+    },
+    "seed": 108790,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.5881007920252159,
+    "transport_seconds": 0.45496504200000004,
+    "cache_key": "f3a2a61eff03dfbfdadc",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.6100134383812996,
+      "density_scale": 0.8469758123852484,
+      "source_y": -0.8825218996665982,
+      "fast_fraction": 0.9526401321183607,
+      "family": "solid"
+    },
+    "seed": 108891,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.541211917065084,
+    "transport_seconds": 0.4604972479999999,
+    "cache_key": "932715a2379edaf6c724",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.616727785649218,
+      "density_scale": 0.8603542379813486,
+      "source_y": -1.3620572170105147,
+      "fast_fraction": 0.9385131488078616,
+      "family": "solid"
+    },
+    "seed": 108992,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.6109360000118613,
+    "transport_seconds": 0.511915961,
+    "cache_key": "ebe604eff6a38080ec8e",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.5231922923091865,
+      "density_scale": 1.2948055534809109,
+      "source_y": -0.6166035766631119,
+      "fast_fraction": 0.9105182747627599,
+      "family": "solid"
+    },
+    "seed": 109093,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.4330044590169564,
+    "transport_seconds": 0.30352583499999997,
+    "cache_key": "00d19b91f476df574787",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.0658529719115637,
+      "density_scale": 1.2115264674761144,
+      "source_y": -0.40531490533563197,
+      "fast_fraction": 0.7938653965440347,
+      "family": "solid"
+    },
+    "seed": 109194,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.0454993330640718,
+    "transport_seconds": 0.95761425,
+    "cache_key": "4cee801e001de891ea0b",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.4752297118736255,
+      "density_scale": 1.1417578503635863,
+      "source_y": -0.5405434414544636,
+      "fast_fraction": 0.8830920952474273,
+      "family": "solid"
+    },
+    "seed": 109295,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.30477570893708616,
+    "transport_seconds": 0.20386262500000002,
+    "cache_key": "fc88107a9fab29b2a91f",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.8558387117313566,
+      "density_scale": 0.7639248878408104,
+      "source_y": 1.41214935057328,
+      "fast_fraction": 0.9149063089428273,
+      "family": "solid"
+    },
+    "seed": 109396,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.3329480409156531,
+    "transport_seconds": 0.258687585,
+    "cache_key": "5f68ee5423dd9fc1f68e",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.602179101361016,
+      "density_scale": 1.0730665050871995,
+      "source_y": -1.7912915823562323,
+      "fast_fraction": 0.6732279534748055,
+      "family": "solid"
+    },
+    "seed": 109497,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.34848258399870247,
+    "transport_seconds": 0.25724004199999995,
+    "cache_key": "dfe8101768d95fa7ff3c",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.1430869604653533,
+      "density_scale": 1.252268415491998,
+      "source_y": 2.367231463134213,
+      "fast_fraction": 0.6423896476455649,
+      "family": "solid"
+    },
+    "seed": 109598,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.30000641697552055,
+    "transport_seconds": 0.22500991799999998,
+    "cache_key": "586ed6036372203570a5",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.7482321924228312,
+      "density_scale": 0.7743436858256922,
+      "source_y": 1.3779644016175085,
+      "fast_fraction": 0.6429636633109664,
+      "family": "solid"
+    },
+    "seed": 3010273,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.9786463329801336,
+    "transport_seconds": 1.322404333,
+    "cache_key": "169346de89880c0f9259",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.460625306842654,
+      "density_scale": 1.1066360310529073,
+      "source_y": -0.3953655031787404,
+      "fast_fraction": 0.6475693601578741,
+      "family": "solid"
+    },
+    "seed": 3010380,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.1716649159789085,
+    "transport_seconds": 0.8131243300000001,
+    "cache_key": "66db595427bd8d5fbf6e",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.2042141606004373,
+      "density_scale": 0.8973619817962146,
+      "source_y": -2.8925372455140193,
+      "fast_fraction": 0.8250600240290519,
+      "family": "solid"
+    },
+    "seed": 3010487,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.8058380000293255,
+    "transport_seconds": 1.410393835,
+    "cache_key": "9732673016a730a8d580",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.397628449107464,
+      "density_scale": 0.6449596117495845,
+      "source_y": 1.8502605764921638,
+      "fast_fraction": 0.9749908575852848,
+      "family": "solid"
+    },
+    "seed": 3010594,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.1682549170218408,
+    "transport_seconds": 0.996119251,
+    "cache_key": "41910219e5273fbae18f",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.99073845854762,
+      "density_scale": 0.7282944195089988,
+      "source_y": 2.972775028073693,
+      "fast_fraction": 0.7076900629470624,
+      "family": "solid"
+    },
+    "seed": 3010701,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.0022034579887986,
+    "transport_seconds": 0.840835291,
+    "cache_key": "aa3b1c1cdd7796d8fadb",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.8123513561116333,
+      "density_scale": 0.7525562343412117,
+      "source_y": 0.0572795336927463,
+      "fast_fraction": 0.981185731126378,
+      "family": "solid"
+    },
+    "seed": 3010808,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.9889533339301124,
+    "transport_seconds": 0.7517422460000001,
+    "cache_key": "f0ef331ac3f5b2d0c123",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.9158944695502904,
+      "density_scale": 0.927040664152958,
+      "source_y": 1.6096753239294408,
+      "fast_fraction": 0.873266563488163,
+      "family": "solid"
+    },
+    "seed": 3010915,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.1678894999204203,
+    "transport_seconds": 0.859404623,
+    "cache_key": "e83a37400635c6f493f6",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.7292010719487925,
+      "density_scale": 0.7889792597448435,
+      "source_y": 0.4456978977808177,
+      "fast_fraction": 0.7550945647219967,
+      "family": "solid"
+    },
+    "seed": 3011022,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.2200649590231478,
+    "transport_seconds": 0.768340752,
+    "cache_key": "59eba2b544e88bc61e7c",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.7489417787968136,
+      "density_scale": 1.29204343518014,
+      "source_y": -1.6109163878185242,
+      "fast_fraction": 0.6299154290232555,
+      "family": "solid"
+    },
+    "seed": 3011129,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.2930999170057476,
+    "transport_seconds": 0.8832948739999998,
+    "cache_key": "cea2c683bc6637cf963a",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.3111259966242526,
+      "density_scale": 1.3892758410679393,
+      "source_y": 2.5580139103437025,
+      "fast_fraction": 0.9264601626005387,
+      "family": "solid"
+    },
+    "seed": 3011236,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.7626833750400692,
+    "transport_seconds": 0.510063872,
+    "cache_key": "6d58fda699cdfb75b7c2",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.0562417673709774,
+      "density_scale": 1.350794696784564,
+      "source_y": -1.4615364701010847,
+      "fast_fraction": 0.9504194798426802,
+      "family": "solid"
+    },
+    "seed": 3011343,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 2.1266960829962045,
+    "transport_seconds": 1.777113043,
+    "cache_key": "a68460527671f49669ef",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.4313323737163772,
+      "density_scale": 1.265019597386144,
+      "source_y": 0.2789684702834352,
+      "fast_fraction": 0.7394818452401224,
+      "family": "solid"
+    },
+    "seed": 3011450,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.0359633340267465,
+    "transport_seconds": 0.737879166,
+    "cache_key": "1e02078fc4063b8fbaad",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.876985840381058,
+      "density_scale": 0.7185947746054758,
+      "source_y": -0.627652219471794,
+      "fast_fraction": 0.9997903325708408,
+      "family": "solid"
+    },
+    "seed": 3011557,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.667039250023663,
+    "transport_seconds": 0.43774612400000007,
+    "cache_key": "06f5bf3ba29498e89e12",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.464972759738841,
+      "density_scale": 0.8342169370215068,
+      "source_y": -1.8798153768818207,
+      "fast_fraction": 0.7961985667989038,
+      "family": "solid"
+    },
+    "seed": 3011664,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.8403924170415848,
+    "transport_seconds": 0.520053542,
+    "cache_key": "39b0cf0740ef3a190592",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.336461831599126,
+      "density_scale": 1.3813855094663803,
+      "source_y": -2.5573000951464375,
+      "fast_fraction": 0.9361736744782342,
+      "family": "solid"
+    },
+    "seed": 3011771,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.8008296249900013,
+    "transport_seconds": 0.5188912500000001,
+    "cache_key": "225a4526796fbcdf6471",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.032818795080375,
+      "density_scale": 1.3016946619015946,
+      "source_y": 0.5515921946299343,
+      "fast_fraction": 0.8405439858865925,
+      "family": "solid"
+    },
+    "seed": 3011878,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.6495371250202879,
+    "transport_seconds": 0.38245191799999995,
+    "cache_key": "d2ef2705c71822c07baf",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.3369514313209887,
+      "density_scale": 1.3357588567198553,
+      "source_y": -2.223475527935447,
+      "fast_fraction": 0.8043075134937355,
+      "family": "solid"
+    },
+    "seed": 3011985,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.752703708014451,
+    "transport_seconds": 0.5852299179999999,
+    "cache_key": "a90606b792a086b28c2d",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.5259135278617713,
+      "density_scale": 1.0164421224467635,
+      "source_y": 1.9795335269397771,
+      "fast_fraction": 0.7862466691967229,
+      "family": "solid"
+    },
+    "seed": 3012092,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.2346700420603156,
+    "transport_seconds": 1.071683003,
+    "cache_key": "0899680bd77db36c4995",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.0385702927933549,
+      "density_scale": 0.8178827815719782,
+      "source_y": 0.13146448722059167,
+      "fast_fraction": 0.831769024498958,
+      "family": "solid"
+    },
+    "seed": 3012199,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.365880792029202,
+    "transport_seconds": 0.782914041,
+    "cache_key": "dde6b8960163d925577f",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.4277831654360518,
+      "density_scale": 0.8785805839813002,
+      "source_y": -1.5615479215645522,
+      "fast_fraction": 0.8363433413457636,
+      "family": "solid"
+    },
+    "seed": 3012306,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.1109250000445172,
+    "transport_seconds": 0.686469042,
+    "cache_key": "6835469ec24e8989e007",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.505834751253897,
+      "density_scale": 0.6963319301457662,
+      "source_y": -1.7289418227110414,
+      "fast_fraction": 0.9670865529490316,
+      "family": "solid"
+    },
+    "seed": 3012413,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.0721487080445513,
+    "transport_seconds": 0.6851834569999999,
+    "cache_key": "65d4f76159b3761399b3",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.2294090065968977,
+      "density_scale": 0.680196882875109,
+      "source_y": 1.7995501318311202,
+      "fast_fraction": 0.6381148591962822,
+      "family": "solid"
+    },
+    "seed": 3012520,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.8702518750214949,
+    "transport_seconds": 0.580157376,
+    "cache_key": "c474bf15fef48e071abd",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.663160793625916,
+      "density_scale": 0.6067438649308289,
+      "source_y": -0.2716037180295827,
+      "fast_fraction": 0.7748811001977227,
+      "family": "solid"
+    },
+    "seed": 3012627,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.5187939580064267,
+    "transport_seconds": 1.1677202110000002,
+    "cache_key": "cc7df616772f184990bb",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.749310261549067,
+      "density_scale": 1.083209481443404,
+      "source_y": -1.3709575519690196,
+      "fast_fraction": 0.8485300374489356,
+      "family": "solid"
+    },
+    "seed": 3012734,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.6234428330790251,
+    "transport_seconds": 0.465944789,
+    "cache_key": "bd0544e40e2e7ae76458",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.5879317815422658,
+      "density_scale": 0.6240935019014224,
+      "source_y": -2.156731048555405,
+      "fast_fraction": 0.8847042703328929,
+      "family": "solid"
+    },
+    "seed": 3012841,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.8775443750200793,
+    "transport_seconds": 0.738589373,
+    "cache_key": "c146429b42eed5f2380d",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.388904349076693,
+      "density_scale": 0.8862545444130483,
+      "source_y": 2.001384585568502,
+      "fast_fraction": 0.7644458432893292,
+      "family": "solid"
+    },
+    "seed": 3012948,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.1458741249516606,
+    "transport_seconds": 0.8897440839999998,
+    "cache_key": "0d7e0fbf248f1fb285f4",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.896278645638276,
+      "density_scale": 1.3067014266228822,
+      "source_y": 1.0984062050299377,
+      "fast_fraction": 0.8952011470069314,
+      "family": "solid"
+    },
+    "seed": 3013055,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.8151219580322504,
+    "transport_seconds": 0.596401168,
+    "cache_key": "36e832d6f0f0d690d474",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.308514169018016,
+      "density_scale": 0.679985647757792,
+      "source_y": 0.9583551504152084,
+      "fast_fraction": 0.609439860178423,
+      "family": "solid"
+    },
+    "seed": 3013162,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.8429701660061255,
+    "transport_seconds": 0.671923788,
+    "cache_key": "42f147f0e7e756ecd9e1",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.2200024892285075,
+      "density_scale": 1.1715769992358234,
+      "source_y": -1.214175301570387,
+      "fast_fraction": 0.6960476348589777,
+      "family": "solid"
+    },
+    "seed": 3013269,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.7752570000011474,
+    "transport_seconds": 0.399650419,
+    "cache_key": "f581de6478b103b9a60c",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.3135429924521853,
+      "density_scale": 1.2254635548535038,
+      "source_y": 2.601265183572865,
+      "fast_fraction": 0.664234391903107,
+      "family": "solid"
+    },
+    "seed": 3013376,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.0267680829856545,
+    "transport_seconds": 0.645912334,
+    "cache_key": "112adc3456fddbc265cf",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.535661065275354,
+      "density_scale": 1.2709464794142624,
+      "source_y": 2.7488189444873337,
+      "fast_fraction": 0.9599860375614641,
+      "family": "solid"
+    },
+    "seed": 3013483,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.3787672918988392,
+    "transport_seconds": 0.9835704589999997,
+    "cache_key": "a483bfdf811652d4b040",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.990599176466252,
+      "density_scale": 0.9560499555215822,
+      "source_y": -2.4883405397169924,
+      "fast_fraction": 0.7282363768985946,
+      "family": "solid"
+    },
+    "seed": 3013590,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.4257704170886427,
+    "transport_seconds": 1.128489167,
+    "cache_key": "c2a256de02bf1ce8bb71",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.11380834149818,
+      "density_scale": 0.9672365921561803,
+      "source_y": 2.189692050581378,
+      "fast_fraction": 0.9906710145558483,
+      "family": "solid"
+    },
+    "seed": 3013697,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.8222933750366792,
+    "transport_seconds": 0.639399668,
+    "cache_key": "29c576cf66d1798caf6e",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.6553338158242674,
+      "density_scale": 1.1315660383317283,
+      "source_y": -0.8028674699413778,
+      "fast_fraction": 0.6247757270698999,
+      "family": "solid"
+    },
+    "seed": 3013804,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.3057057920377702,
+    "transport_seconds": 1.0370620009999998,
+    "cache_key": "0be02f5b0427e2c8fe38",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.8313114305918097,
+      "density_scale": 0.7606093540211545,
+      "source_y": -1.093894976828317,
+      "fast_fraction": 0.9027675322970191,
+      "family": "solid"
+    },
+    "seed": 3013911,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.4692523329285905,
+    "transport_seconds": 0.8413210820000001,
+    "cache_key": "dedbbffc75b42bf42843",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.657758262050819,
+      "density_scale": 0.8437692471282634,
+      "source_y": -0.048544404419731624,
+      "fast_fraction": 0.8570481568315818,
+      "family": "solid"
+    },
+    "seed": 3014018,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 2.7891254170099273,
+    "transport_seconds": 2.453466373,
+    "cache_key": "319e8039a9b1665bfcba",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.196099909547681,
+      "density_scale": 1.146114566228328,
+      "source_y": -2.7956979457537225,
+      "fast_fraction": 0.9290133887779566,
+      "family": "solid"
+    },
+    "seed": 3014125,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 2.6307764580706134,
+    "transport_seconds": 2.243436165,
+    "cache_key": "a5447adbeac97ee524e0",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.8978816714791824,
+      "density_scale": 0.6348374756398305,
+      "source_y": 0.7294665738799111,
+      "fast_fraction": 0.9138325033241647,
+      "family": "solid"
+    },
+    "seed": 3014232,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.7374048749916255,
+    "transport_seconds": 1.499260335,
+    "cache_key": "2350a1acf3f62cbc34f0",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.6793778639390458,
+      "density_scale": 1.1527836450279811,
+      "source_y": 1.273717369749745,
+      "fast_fraction": 0.9456844885705833,
+      "family": "solid"
+    },
+    "seed": 3014339,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 3.228363958070986,
+    "transport_seconds": 2.8206379200000002,
+    "cache_key": "de92ee25cf7314b2aaed",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.1948253593451428,
+      "density_scale": 0.8549389750458907,
+      "source_y": -1.1087164633532214,
+      "fast_fraction": 0.8880499344986923,
+      "family": "solid"
+    },
+    "seed": 3014446,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.703868875047192,
+    "transport_seconds": 1.4969556669999997,
+    "cache_key": "3ab1e85c68bf80cfa0e7",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.033312308189471,
+      "density_scale": 0.8032930605261148,
+      "source_y": -2.0888939842517287,
+      "fast_fraction": 0.8157149527475981,
+      "family": "solid"
+    },
+    "seed": 3014553,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.2056077079614624,
+    "transport_seconds": 0.9122539169999998,
+    "cache_key": "7146409aeb68d30acd73",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.0723040110404478,
+      "density_scale": 1.3657307537588532,
+      "source_y": -2.3470888345374505,
+      "fast_fraction": 0.9622342356756206,
+      "family": "solid"
+    },
+    "seed": 3014660,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.3871024580439553,
+    "transport_seconds": 1.075771502,
+    "cache_key": "37d2eb45497a11173990",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.165698898469243,
+      "density_scale": 0.7409752527418058,
+      "source_y": 1.5054282842751006,
+      "fast_fraction": 0.6874355470902138,
+      "family": "solid"
+    },
+    "seed": 3014767,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 3.370565125020221,
+    "transport_seconds": 1.889858749,
+    "cache_key": "7027fbb1bf31accf38dc",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.814300665254493,
+      "density_scale": 1.117419916505311,
+      "source_y": 1.480535792944056,
+      "fast_fraction": 0.7246999947675774,
+      "family": "solid"
+    },
+    "seed": 3014874,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 2.43636074999813,
+    "transport_seconds": 1.9969311669999998,
+    "cache_key": "6f3a63053d8254a967f0",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.6480017580307147,
+      "density_scale": 1.3247508744384777,
+      "source_y": -2.6124915886432545,
+      "fast_fraction": 0.8745578006645921,
+      "family": "solid"
+    },
+    "seed": 3014981,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 2.402515665977262,
+    "transport_seconds": 2.014911582,
+    "cache_key": "98a52025063a1ee1be5c",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.937220063261529,
+      "density_scale": 1.0118735699715877,
+      "source_y": 0.6438330313600082,
+      "fast_fraction": 0.7189836607811522,
+      "family": "solid"
+    },
+    "seed": 3015088,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.2260816670022905,
+    "transport_seconds": 0.931920834,
+    "cache_key": "b605bda39bb5c4327913",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.680976939587117,
+      "density_scale": 1.0324675103324534,
+      "source_y": -1.9060367703850407,
+      "fast_fraction": 0.7489404748285783,
+      "family": "solid"
+    },
+    "seed": 3015195,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.7048397089820355,
+    "transport_seconds": 0.423810166,
+    "cache_key": "fe1119b6816e9505504f",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.1034965295780927,
+      "density_scale": 1.238696035913811,
+      "source_y": 2.27953061379901,
+      "fast_fraction": 0.6182676275103549,
+      "family": "solid"
+    },
+    "seed": 3015302,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.501222167047672,
+    "transport_seconds": 0.9704814180000001,
+    "cache_key": "241cf8a169378d99678a",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.948961612700335,
+      "density_scale": 0.9908791754323378,
+      "source_y": 2.322168842545076,
+      "fast_fraction": 0.6057852416419963,
+      "family": "window"
+    },
+    "seed": 3015409,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.8748007919639349,
+    "transport_seconds": 0.685402415,
+    "cache_key": "8f45e7fc52dcea0e4dbb",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.503204978672747,
+      "density_scale": 1.177759222992834,
+      "source_y": -0.18462844552003865,
+      "fast_fraction": 0.7429950619009906,
+      "family": "window"
+    },
+    "seed": 3015516,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.4978820000542328,
+    "transport_seconds": 1.261991543,
+    "cache_key": "21c49b7f35e5f9abe4f2",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.1924135888472454,
+      "density_scale": 0.9370907257732306,
+      "source_y": 1.1020482596529755,
+      "fast_fraction": 0.6863430739247408,
+      "family": "window"
+    },
+    "seed": 3015623,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.100303916959092,
+    "transport_seconds": 0.8528777930000001,
+    "cache_key": "84e91a1996e56bed08bb",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 4.798568938193061,
+      "density_scale": 0.986036408150728,
+      "source_y": 2.4490762290143007,
+      "fast_fraction": 0.677346001148802,
+      "family": "window"
+    },
+    "seed": 3015730,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.6306765830377117,
+    "transport_seconds": 0.488631749,
+    "cache_key": "7e5cef5bb814c5ac2e6f",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.5326523596870283,
+      "density_scale": 0.6636887725296947,
+      "source_y": -2.984384244900858,
+      "fast_fraction": 0.9067083009110192,
+      "family": "window"
+    },
+    "seed": 3015837,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.1454881249228492,
+    "transport_seconds": 0.725329247,
+    "cache_key": "e1b5476ede1820ed700d",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.5510799815564185,
+      "density_scale": 1.1916262886624294,
+      "source_y": 2.826829776213179,
+      "fast_fraction": 0.7914887170674625,
+      "family": "window"
+    },
+    "seed": 3015944,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.301261542015709,
+    "transport_seconds": 0.8982526279999999,
+    "cache_key": "0610239448b23acedf3b",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 3.837263424401672,
+      "density_scale": 1.0773359507005495,
+      "source_y": 0.3450879520303607,
+      "fast_fraction": 0.703332961581508,
+      "family": "window"
+    },
+    "seed": 3016051,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.2773312920471653,
+    "transport_seconds": 1.054436877,
+    "cache_key": "81b49f3be8f59d1b7e26",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.5600990400528616,
+      "density_scale": 0.914492391420729,
+      "source_y": -0.9567436149205388,
+      "fast_fraction": 0.8079485118977504,
+      "family": "window"
+    },
+    "seed": 3016158,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.1521841670619324,
+    "transport_seconds": 0.7442770829999998,
+    "cache_key": "025b08195ab3585b9cb5",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.6724597344676182,
+      "density_scale": 1.0573551197929874,
+      "source_y": 0.8362817487188883,
+      "fast_fraction": 0.8658805783712367,
+      "family": "window"
+    },
+    "seed": 3016265,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 4.210458250017837,
+    "transport_seconds": 3.236526499,
+    "cache_key": "c34640a97e231b73dd62",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 2.12434130553499,
+      "density_scale": 1.2081642297932271,
+      "source_y": -0.5174646545865791,
+      "fast_fraction": 0.6677135218744429,
+      "family": "window"
+    },
+    "seed": 3016372,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 2.7679986250586808,
+    "transport_seconds": 1.776715122,
+    "cache_key": "4606936922c585a6cb12",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.2800958005554688,
+      "density_scale": 1.2427612716169456,
+      "source_y": -0.44269181878008146,
+      "fast_fraction": 0.7703094448896501,
+      "family": "window"
+    },
+    "seed": 3016479,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 0.8102968329330906,
+    "transport_seconds": 0.626183124,
+    "cache_key": "628f06bcba95a549f05f",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  },
+  {
+    "config": {
+      "thickness": 1.2570630716003641,
+      "density_scale": 1.044955590783322,
+      "source_y": -0.7394363838265452,
+      "fast_fraction": 0.6590945639730659,
+      "family": "window"
+    },
+    "seed": 3016586,
+    "particles_per_batch": 2000,
+    "batches": 20,
+    "histories": 40000,
+    "solver": "OpenMC",
+    "solver_version": "0.16.0",
+    "units": "cm^-2 per source particle",
+    "energy_edges_eV": [
+      1e-05,
+      1000.0,
+      20000000.0
+    ],
+    "shape": [
+      2,
+      20,
+      24
+    ],
+    "normalization": "tracklength tally per source particle divided by cell volume in cm^3",
+    "seconds": 1.244822125067003,
+    "transport_seconds": 1.06717379,
+    "cache_key": "dd0f1c2872400c25adb2",
+    "physics_fingerprint": "8007b9edd5de4d12aed4e9fa4cea4cbf93ddf5889cd42a30a2dde5d9c44f3d26",
+    "schema_version": 1
+  }
+]

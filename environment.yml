@@ -1,0 +1,14 @@
+name: fluxatlas
+channels: [conda-forge]
+dependencies:
+  - python=3.12
+  - openmc=0.16.0
+  - numpy
+  - scipy
+  - scikit-learn
+  - h5py
+  - matplotlib
+  - pytest
+  - pip
+  - pip:
+      - -e .

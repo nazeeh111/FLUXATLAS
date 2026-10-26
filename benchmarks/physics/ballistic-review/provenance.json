@@ -1,0 +1,23 @@
+{
+  "purpose": "Preserved original independent reviewer evidence, with portable solver input.",
+  "original_run_directory": "work/reviewer-ballistic-20261025",
+  "packaging_changes": [
+    "model.xml materials/cross_sections changed from an absolute local path to mgxs.h5; all other XML text preserved.",
+    "review.json, mgxs.h5 and statepoint.20.h5 copied byte-for-byte.",
+    "quadrature.json retains original quadrature stdout."
+  ],
+  "original_sha256": {
+    "review.json": "d85ca837dd4c7c2086b7c72962a9c0597a7e5a147ce411ffe3efed577c379ca0",
+    "mgxs.h5": "9afaa7316654421a7eae8d8908c68553c3bda6d3218c7367c936035dbd1ec55c",
+    "statepoint.20.h5": "b0a128c6d1b0f863cb8571b74dc8464db407c0ae98630686635ea2ccdb0f6b3a",
+    "model.xml": "5532c4206a0f2e18060684cc429333fa67a9acf980e394d9ff3192a436ab4312"
+  },
+  "release_sha256": {
+    "review.json": "d85ca837dd4c7c2086b7c72962a9c0597a7e5a147ce411ffe3efed577c379ca0",
+    "mgxs.h5": "9afaa7316654421a7eae8d8908c68553c3bda6d3218c7367c936035dbd1ec55c",
+    "statepoint.20.h5": "b0a128c6d1b0f863cb8571b74dc8464db407c0ae98630686635ea2ccdb0f6b3a",
+    "model.xml": "ac17d44920c122aa81dc4f48acca0276f5932ccf9b174671be7a3782a8a55d19"
+  },
+  "reproduction_script": "scripts/check-ballistic.py",
+  "reproduction_note": "The retained original run zeroed the material table in an isolated Python process. The retained reproduction script produces the same pure-absorption library by replacing only its disposable on-disk mgxs.h5, leaving production module state unchanged."
+}

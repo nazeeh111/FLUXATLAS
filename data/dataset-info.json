@@ -1,0 +1,14 @@
+{
+  "schema_version": 2,
+  "seed": 713,
+  "fresh_holdout_seed": 271828,
+  "high_histories_each": 40000,
+  "low_histories_each": 8000,
+  "pool": 96,
+  "calibration": 24,
+  "test": 24,
+  "ood": 12,
+  "generation_high_histories": 6240000,
+  "generation_low_histories": 768000,
+  "note": "All high pool labels precomputed for retrospective acquisition studies; only selected labels are exposed to each fit."
+}

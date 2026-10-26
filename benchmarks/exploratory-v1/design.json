@@ -1,0 +1,2030 @@
+[
+  {
+    "id": "pool-000",
+    "split": "pool",
+    "config": {
+      "thickness": 1.6573809021756158,
+      "density_scale": 1.3205901641629925,
+      "source_y": -1.533747752146437,
+      "fast_fraction": 0.7563430381781343,
+      "family": "solid"
+    },
+    "high_seed": 100003,
+    "low_seed": 700001
+  },
+  {
+    "id": "pool-001",
+    "split": "pool",
+    "config": {
+      "thickness": 1.4220500490990649,
+      "density_scale": 0.8898734949876669,
+      "source_y": -2.2249381212637216,
+      "fast_fraction": 0.6665777433444527,
+      "family": "solid"
+    },
+    "high_seed": 100104,
+    "low_seed": 700104
+  },
+  {
+    "id": "pool-002",
+    "split": "pool",
+    "config": {
+      "thickness": 1.983889568980862,
+      "density_scale": 0.9426154779269149,
+      "source_y": 2.162777662893439,
+      "fast_fraction": 0.9709963571178123,
+      "family": "solid"
+    },
+    "high_seed": 100205,
+    "low_seed": 700207
+  },
+  {
+    "id": "pool-003",
+    "split": "pool",
+    "config": {
+      "thickness": 1.037980626077045,
+      "density_scale": 1.1087440256452892,
+      "source_y": 1.9942478389596703,
+      "fast_fraction": 0.7456656025065064,
+      "family": "solid"
+    },
+    "high_seed": 100306,
+    "low_seed": 700310
+  },
+  {
+    "id": "pool-004",
+    "split": "pool",
+    "config": {
+      "thickness": 3.7042336769863957,
+      "density_scale": 0.6135844568250565,
+      "source_y": 1.8523212367341326,
+      "fast_fraction": 0.7220304471370346,
+      "family": "solid"
+    },
+    "high_seed": 100407,
+    "low_seed": 700413
+  },
+  {
+    "id": "pool-005",
+    "split": "pool",
+    "config": {
+      "thickness": 2.3589845080095353,
+      "density_scale": 1.134469431217591,
+      "source_y": 0.6803173422747246,
+      "fast_fraction": 0.8811391758278,
+      "family": "solid"
+    },
+    "high_seed": 100508,
+    "low_seed": 700516
+  },
+  {
+    "id": "pool-006",
+    "split": "pool",
+    "config": {
+      "thickness": 1.5275849146669132,
+      "density_scale": 0.837115790741149,
+      "source_y": 2.996667372901152,
+      "fast_fraction": 0.9734280789719293,
+      "family": "solid"
+    },
+    "high_seed": 100609,
+    "low_seed": 700619
+  },
+  {
+    "id": "pool-007",
+    "split": "pool",
+    "config": {
+      "thickness": 1.06654674091397,
+      "density_scale": 1.2578372407923353,
+      "source_y": -2.4339884746295386,
+      "fast_fraction": 0.9168586071721849,
+      "family": "solid"
+    },
+    "high_seed": 100710,
+    "low_seed": 700722
+  },
+  {
+    "id": "pool-008",
+    "split": "pool",
+    "config": {
+      "thickness": 4.495314138747801,
+      "density_scale": 1.3890564272898258,
+      "source_y": -2.062454493011904,
+      "fast_fraction": 0.9803837556223778,
+      "family": "solid"
+    },
+    "high_seed": 100811,
+    "low_seed": 700825
+  },
+  {
+    "id": "pool-009",
+    "split": "pool",
+    "config": {
+      "thickness": 3.756977239579383,
+      "density_scale": 1.2042969522436182,
+      "source_y": 1.5758274250725295,
+      "fast_fraction": 0.7501343326535245,
+      "family": "solid"
+    },
+    "high_seed": 100912,
+    "low_seed": 700928
+  },
+  {
+    "id": "pool-010",
+    "split": "pool",
+    "config": {
+      "thickness": 4.798602321990197,
+      "density_scale": 0.6606576019159038,
+      "source_y": 0.1046748242611244,
+      "fast_fraction": 0.8561969349493617,
+      "family": "solid"
+    },
+    "high_seed": 101013,
+    "low_seed": 701031
+  },
+  {
+    "id": "pool-011",
+    "split": "pool",
+    "config": {
+      "thickness": 2.8983081555337833,
+      "density_scale": 0.753749259056022,
+      "source_y": -1.9820992051062176,
+      "fast_fraction": 0.9180950582425774,
+      "family": "solid"
+    },
+    "high_seed": 101114,
+    "low_seed": 701134
+  },
+  {
+    "id": "pool-012",
+    "split": "pool",
+    "config": {
+      "thickness": 4.302229298779187,
+      "density_scale": 0.7281976154606811,
+      "source_y": 2.815877943235641,
+      "fast_fraction": 0.7255980463476686,
+      "family": "solid"
+    },
+    "high_seed": 101215,
+    "low_seed": 701237
+  },
+  {
+    "id": "pool-013",
+    "split": "pool",
+    "config": {
+      "thickness": 3.113322718711979,
+      "density_scale": 0.8954507613619421,
+      "source_y": 0.5961496598469282,
+      "fast_fraction": 0.7266842506045195,
+      "family": "solid"
+    },
+    "high_seed": 101316,
+    "low_seed": 701340
+  },
+  {
+    "id": "pool-014",
+    "split": "pool",
+    "config": {
+      "thickness": 1.9672406832346727,
+      "density_scale": 1.2633556073637813,
+      "source_y": -1.8983011654584376,
+      "fast_fraction": 0.9978081155114856,
+      "family": "solid"
+    },
+    "high_seed": 101417,
+    "low_seed": 701443
+  },
+  {
+    "id": "pool-015",
+    "split": "pool",
+    "config": {
+      "thickness": 4.898619756749981,
+      "density_scale": 0.9344943034155813,
+      "source_y": 0.12875216698666625,
+      "fast_fraction": 0.8737385099070296,
+      "family": "solid"
+    },
+    "high_seed": 101518,
+    "low_seed": 701546
+  },
+  {
+    "id": "pool-016",
+    "split": "pool",
+    "config": {
+      "thickness": 3.1633818396261653,
+      "density_scale": 0.7802416269419918,
+      "source_y": -2.8054447756352445,
+      "fast_fraction": 0.8272712511814923,
+      "family": "solid"
+    },
+    "high_seed": 101619,
+    "low_seed": 701649
+  },
+  {
+    "id": "pool-017",
+    "split": "pool",
+    "config": {
+      "thickness": 3.460672294251188,
+      "density_scale": 0.7910112528271951,
+      "source_y": 1.6479703686785054,
+      "fast_fraction": 0.8689478657106441,
+      "family": "solid"
+    },
+    "high_seed": 101720,
+    "low_seed": 701752
+  },
+  {
+    "id": "pool-018",
+    "split": "pool",
+    "config": {
+      "thickness": 2.174305425757095,
+      "density_scale": 0.981285819785341,
+      "source_y": 0.9371949121064169,
+      "fast_fraction": 0.8477305306735461,
+      "family": "solid"
+    },
+    "high_seed": 101821,
+    "low_seed": 701855
+  },
+  {
+    "id": "pool-019",
+    "split": "pool",
+    "config": {
+      "thickness": 3.790875657928779,
+      "density_scale": 0.8355486869419251,
+      "source_y": 1.9124316019429282,
+      "fast_fraction": 0.9314147278847591,
+      "family": "solid"
+    },
+    "high_seed": 101922,
+    "low_seed": 701958
+  },
+  {
+    "id": "pool-020",
+    "split": "pool",
+    "config": {
+      "thickness": 2.757220536145091,
+      "density_scale": 0.8445874990323219,
+      "source_y": 1.9525189894874808,
+      "fast_fraction": 0.9592183800167501,
+      "family": "solid"
+    },
+    "high_seed": 102023,
+    "low_seed": 702061
+  },
+  {
+    "id": "pool-021",
+    "split": "pool",
+    "config": {
+      "thickness": 4.7111887159524555,
+      "density_scale": 0.9069950152491092,
+      "source_y": 0.06976081387370936,
+      "fast_fraction": 0.8012717408888476,
+      "family": "solid"
+    },
+    "high_seed": 102124,
+    "low_seed": 702164
+  },
+  {
+    "id": "pool-022",
+    "split": "pool",
+    "config": {
+      "thickness": 3.427030247208081,
+      "density_scale": 0.9222003325530206,
+      "source_y": -2.6094248164017957,
+      "fast_fraction": 0.7628320952236689,
+      "family": "solid"
+    },
+    "high_seed": 102225,
+    "low_seed": 702267
+  },
+  {
+    "id": "pool-023",
+    "split": "pool",
+    "config": {
+      "thickness": 1.2015148236960893,
+      "density_scale": 0.8530415689994906,
+      "source_y": -2.1571308749766445,
+      "fast_fraction": 0.6750644249787499,
+      "family": "solid"
+    },
+    "high_seed": 102326,
+    "low_seed": 702370
+  },
+  {
+    "id": "pool-024",
+    "split": "pool",
+    "config": {
+      "thickness": 3.738999505743489,
+      "density_scale": 1.356433799868968,
+      "source_y": 1.3662688806776035,
+      "fast_fraction": 0.9686387612992635,
+      "family": "solid"
+    },
+    "high_seed": 102427,
+    "low_seed": 702473
+  },
+  {
+    "id": "pool-025",
+    "split": "pool",
+    "config": {
+      "thickness": 2.299185785920825,
+      "density_scale": 1.0906629974333804,
+      "source_y": -2.3304642841992114,
+      "fast_fraction": 0.6075314918301398,
+      "family": "solid"
+    },
+    "high_seed": 102528,
+    "low_seed": 702576
+  },
+  {
+    "id": "pool-026",
+    "split": "pool",
+    "config": {
+      "thickness": 1.01850184903745,
+      "density_scale": 0.618651271710978,
+      "source_y": -2.621616441297424,
+      "fast_fraction": 0.7321504428442979,
+      "family": "solid"
+    },
+    "high_seed": 102629,
+    "low_seed": 702679
+  },
+  {
+    "id": "pool-027",
+    "split": "pool",
+    "config": {
+      "thickness": 2.8887552651630104,
+      "density_scale": 1.1806314029745466,
+      "source_y": -2.6752999259858736,
+      "fast_fraction": 0.6251390020032969,
+      "family": "solid"
+    },
+    "high_seed": 102730,
+    "low_seed": 702782
+  },
+  {
+    "id": "pool-028",
+    "split": "pool",
+    "config": {
+      "thickness": 4.099068731606334,
+      "density_scale": 1.0869064619740019,
+      "source_y": 0.008684594692452308,
+      "fast_fraction": 0.947577344756065,
+      "family": "solid"
+    },
+    "high_seed": 102831,
+    "low_seed": 702885
+  },
+  {
+    "id": "pool-029",
+    "split": "pool",
+    "config": {
+      "thickness": 2.477395345466573,
+      "density_scale": 1.013419880697347,
+      "source_y": 2.2669877121841937,
+      "fast_fraction": 0.7194685738025968,
+      "family": "solid"
+    },
+    "high_seed": 102932,
+    "low_seed": 702988
+  },
+  {
+    "id": "pool-030",
+    "split": "pool",
+    "config": {
+      "thickness": 2.210635395426761,
+      "density_scale": 1.3950968858055697,
+      "source_y": -2.9291776471589226,
+      "fast_fraction": 0.8451801764260185,
+      "family": "solid"
+    },
+    "high_seed": 103033,
+    "low_seed": 703091
+  },
+  {
+    "id": "pool-031",
+    "split": "pool",
+    "config": {
+      "thickness": 3.3161441665946816,
+      "density_scale": 0.7793200480979863,
+      "source_y": -0.6559240617108419,
+      "fast_fraction": 0.8758212740032247,
+      "family": "solid"
+    },
+    "high_seed": 103134,
+    "low_seed": 703194
+  },
+  {
+    "id": "pool-032",
+    "split": "pool",
+    "config": {
+      "thickness": 1.2836358148576312,
+      "density_scale": 1.0497478672938376,
+      "source_y": 0.7744101817910436,
+      "fast_fraction": 0.8931135357927728,
+      "family": "solid"
+    },
+    "high_seed": 103235,
+    "low_seed": 703297
+  },
+  {
+    "id": "pool-033",
+    "split": "pool",
+    "config": {
+      "thickness": 1.0770920413290803,
+      "density_scale": 1.1894404254214752,
+      "source_y": -1.4127405485210986,
+      "fast_fraction": 0.7983180988541947,
+      "family": "solid"
+    },
+    "high_seed": 103336,
+    "low_seed": 703400
+  },
+  {
+    "id": "pool-034",
+    "split": "pool",
+    "config": {
+      "thickness": 2.065582710782576,
+      "density_scale": 1.307973793564165,
+      "source_y": 0.8909862495317644,
+      "fast_fraction": 0.878709566122519,
+      "family": "solid"
+    },
+    "high_seed": 103437,
+    "low_seed": 703503
+  },
+  {
+    "id": "pool-035",
+    "split": "pool",
+    "config": {
+      "thickness": 1.7250773540753626,
+      "density_scale": 1.1164897874051887,
+      "source_y": -0.030306330832143402,
+      "fast_fraction": 0.8210319402029805,
+      "family": "solid"
+    },
+    "high_seed": 103538,
+    "low_seed": 703606
+  },
+  {
+    "id": "pool-036",
+    "split": "pool",
+    "config": {
+      "thickness": 2.125593255016393,
+      "density_scale": 1.3904705791649172,
+      "source_y": 0.4571188924167746,
+      "fast_fraction": 0.7307449023960032,
+      "family": "solid"
+    },
+    "high_seed": 103639,
+    "low_seed": 703709
+  },
+  {
+    "id": "pool-037",
+    "split": "pool",
+    "config": {
+      "thickness": 4.5467281847187495,
+      "density_scale": 1.1225942180134223,
+      "source_y": -1.8125613085491485,
+      "fast_fraction": 0.6122093294243391,
+      "family": "solid"
+    },
+    "high_seed": 103740,
+    "low_seed": 703812
+  },
+  {
+    "id": "pool-038",
+    "split": "pool",
+    "config": {
+      "thickness": 4.663185943879472,
+      "density_scale": 0.8280447844865725,
+      "source_y": -1.7333134336531852,
+      "fast_fraction": 0.6334063016624524,
+      "family": "solid"
+    },
+    "high_seed": 103841,
+    "low_seed": 703915
+  },
+  {
+    "id": "pool-039",
+    "split": "pool",
+    "config": {
+      "thickness": 4.013931596398171,
+      "density_scale": 0.7714787080975745,
+      "source_y": -2.7271031013319686,
+      "fast_fraction": 0.8340288352441795,
+      "family": "solid"
+    },
+    "high_seed": 103942,
+    "low_seed": 704018
+  },
+  {
+    "id": "pool-040",
+    "split": "pool",
+    "config": {
+      "thickness": 2.4048469555076126,
+      "density_scale": 1.328530540143588,
+      "source_y": -2.9082044425456726,
+      "fast_fraction": 0.8247587459669717,
+      "family": "solid"
+    },
+    "high_seed": 104043,
+    "low_seed": 704121
+  },
+  {
+    "id": "pool-041",
+    "split": "pool",
+    "config": {
+      "thickness": 1.2760972115150309,
+      "density_scale": 1.062137945646934,
+      "source_y": 1.1319332858352311,
+      "fast_fraction": 0.8300976414790218,
+      "family": "solid"
+    },
+    "high_seed": 104144,
+    "low_seed": 704224
+  },
+  {
+    "id": "pool-042",
+    "split": "pool",
+    "config": {
+      "thickness": 2.5460697553066343,
+      "density_scale": 1.1450970353757532,
+      "source_y": -1.6160044783573115,
+      "fast_fraction": 0.903507850844101,
+      "family": "solid"
+    },
+    "high_seed": 104245,
+    "low_seed": 704327
+  },
+  {
+    "id": "pool-043",
+    "split": "pool",
+    "config": {
+      "thickness": 4.265732868806474,
+      "density_scale": 1.1676365487840357,
+      "source_y": 2.675478623913804,
+      "fast_fraction": 0.8108832621252616,
+      "family": "solid"
+    },
+    "high_seed": 104346,
+    "low_seed": 704430
+  },
+  {
+    "id": "pool-044",
+    "split": "pool",
+    "config": {
+      "thickness": 1.2334220789335881,
+      "density_scale": 0.869730190772546,
+      "source_y": 0.7285112499227764,
+      "fast_fraction": 0.6813158420648867,
+      "family": "solid"
+    },
+    "high_seed": 104447,
+    "low_seed": 704533
+  },
+  {
+    "id": "pool-045",
+    "split": "pool",
+    "config": {
+      "thickness": 2.6552375818692617,
+      "density_scale": 1.2880423946229835,
+      "source_y": 0.5273853609583163,
+      "fast_fraction": 0.6592874218367482,
+      "family": "solid"
+    },
+    "high_seed": 104548,
+    "low_seed": 704636
+  },
+  {
+    "id": "pool-046",
+    "split": "pool",
+    "config": {
+      "thickness": 2.9635323643122558,
+      "density_scale": 1.3030889080740213,
+      "source_y": 1.580357614340362,
+      "fast_fraction": 0.9624506427475015,
+      "family": "solid"
+    },
+    "high_seed": 104649,
+    "low_seed": 704739
+  },
+  {
+    "id": "pool-047",
+    "split": "pool",
+    "config": {
+      "thickness": 4.325293392487012,
+      "density_scale": 1.2196253888609814,
+      "source_y": 1.653984164843501,
+      "fast_fraction": 0.7691457577017549,
+      "family": "solid"
+    },
+    "high_seed": 104750,
+    "low_seed": 704842
+  },
+  {
+    "id": "pool-048",
+    "split": "pool",
+    "config": {
+      "thickness": 3.8848656129639347,
+      "density_scale": 0.6544369263257189,
+      "source_y": -0.5286827567790442,
+      "fast_fraction": 0.9351035231625449,
+      "family": "solid"
+    },
+    "high_seed": 104851,
+    "low_seed": 704945
+  },
+  {
+    "id": "pool-049",
+    "split": "pool",
+    "config": {
+      "thickness": 1.5098816532288222,
+      "density_scale": 1.171974037122152,
+      "source_y": 2.4458022239939297,
+      "fast_fraction": 0.6202368790492476,
+      "family": "solid"
+    },
+    "high_seed": 104952,
+    "low_seed": 705048
+  },
+  {
+    "id": "pool-050",
+    "split": "pool",
+    "config": {
+      "thickness": 4.9397695489381155,
+      "density_scale": 0.755396003751851,
+      "source_y": -0.48965426403999146,
+      "fast_fraction": 0.8662233981066794,
+      "family": "solid"
+    },
+    "high_seed": 105053,
+    "low_seed": 705151
+  },
+  {
+    "id": "pool-051",
+    "split": "pool",
+    "config": {
+      "thickness": 2.69363116108964,
+      "density_scale": 0.6364125391779237,
+      "source_y": -0.18567395569827383,
+      "fast_fraction": 0.6676074529868179,
+      "family": "solid"
+    },
+    "high_seed": 105154,
+    "low_seed": 705254
+  },
+  {
+    "id": "pool-052",
+    "split": "pool",
+    "config": {
+      "thickness": 3.6156781890034404,
+      "density_scale": 1.0774391520401545,
+      "source_y": -1.9356449941357097,
+      "fast_fraction": 0.9296535972810612,
+      "family": "solid"
+    },
+    "high_seed": 105255,
+    "low_seed": 705357
+  },
+  {
+    "id": "pool-053",
+    "split": "pool",
+    "config": {
+      "thickness": 2.522753797427346,
+      "density_scale": 1.2773546581284203,
+      "source_y": 2.3227019570371867,
+      "fast_fraction": 0.6153108318816004,
+      "family": "solid"
+    },
+    "high_seed": 105356,
+    "low_seed": 705460
+  },
+  {
+    "id": "pool-054",
+    "split": "pool",
+    "config": {
+      "thickness": 3.6445599441409064,
+      "density_scale": 0.7988427035071974,
+      "source_y": 2.7099916654459024,
+      "fast_fraction": 0.8885342973409849,
+      "family": "solid"
+    },
+    "high_seed": 105457,
+    "low_seed": 705563
+  },
+  {
+    "id": "pool-055",
+    "split": "pool",
+    "config": {
+      "thickness": 4.39071035093467,
+      "density_scale": 0.8208259593017886,
+      "source_y": 0.41752654189256866,
+      "fast_fraction": 0.9250665367351131,
+      "family": "solid"
+    },
+    "high_seed": 105558,
+    "low_seed": 705666
+  },
+  {
+    "id": "pool-056",
+    "split": "pool",
+    "config": {
+      "thickness": 4.339966145422574,
+      "density_scale": 1.193455266506854,
+      "source_y": -2.9988979521622254,
+      "fast_fraction": 0.6581276689279996,
+      "family": "solid"
+    },
+    "high_seed": 105659,
+    "low_seed": 705769
+  },
+  {
+    "id": "pool-057",
+    "split": "pool",
+    "config": {
+      "thickness": 1.5636222776569157,
+      "density_scale": 1.239001490652476,
+      "source_y": 2.592679945818208,
+      "fast_fraction": 0.7094170301589204,
+      "family": "solid"
+    },
+    "high_seed": 105760,
+    "low_seed": 705872
+  },
+  {
+    "id": "pool-058",
+    "split": "pool",
+    "config": {
+      "thickness": 2.257785277330745,
+      "density_scale": 0.7148935782376332,
+      "source_y": -2.078708078287455,
+      "fast_fraction": 0.6291476211181741,
+      "family": "solid"
+    },
+    "high_seed": 105861,
+    "low_seed": 705975
+  },
+  {
+    "id": "pool-059",
+    "split": "pool",
+    "config": {
+      "thickness": 1.6721680240215995,
+      "density_scale": 0.6431332351570186,
+      "source_y": 0.35545210038877606,
+      "fast_fraction": 0.7800649678252785,
+      "family": "solid"
+    },
+    "high_seed": 105962,
+    "low_seed": 706078
+  },
+  {
+    "id": "pool-060",
+    "split": "pool",
+    "config": {
+      "thickness": 1.3514284596293122,
+      "density_scale": 0.6902228124610389,
+      "source_y": 0.861738610830669,
+      "fast_fraction": 0.6998658605234139,
+      "family": "solid"
+    },
+    "high_seed": 106063,
+    "low_seed": 706181
+  },
+  {
+    "id": "pool-061",
+    "split": "pool",
+    "config": {
+      "thickness": 3.926896645448818,
+      "density_scale": 0.6621945981022591,
+      "source_y": 0.6200460517603013,
+      "fast_fraction": 0.7853640737540165,
+      "family": "solid"
+    },
+    "high_seed": 106164,
+    "low_seed": 706284
+  },
+  {
+    "id": "pool-062",
+    "split": "pool",
+    "config": {
+      "thickness": 2.824382315601546,
+      "density_scale": 0.9086882421421903,
+      "source_y": 0.1886882453204768,
+      "fast_fraction": 0.6002220699596598,
+      "family": "solid"
+    },
+    "high_seed": 106265,
+    "low_seed": 706387
+  },
+  {
+    "id": "pool-063",
+    "split": "pool",
+    "config": {
+      "thickness": 1.4592454337816583,
+      "density_scale": 0.7091297360119597,
+      "source_y": 1.15397292305844,
+      "fast_fraction": 0.8706691481990474,
+      "family": "solid"
+    },
+    "high_seed": 106366,
+    "low_seed": 706490
+  },
+  {
+    "id": "pool-064",
+    "split": "pool",
+    "config": {
+      "thickness": 2.861788061890469,
+      "density_scale": 0.9300908626641451,
+      "source_y": -2.2796376455163534,
+      "fast_fraction": 0.9360317308947277,
+      "family": "solid"
+    },
+    "high_seed": 106467,
+    "low_seed": 706593
+  },
+  {
+    "id": "pool-065",
+    "split": "pool",
+    "config": {
+      "thickness": 3.6702887736681085,
+      "density_scale": 0.9530492667629122,
+      "source_y": 2.5740382421660986,
+      "fast_fraction": 0.6208629122320355,
+      "family": "solid"
+    },
+    "high_seed": 106568,
+    "low_seed": 706696
+  },
+  {
+    "id": "pool-066",
+    "split": "pool",
+    "config": {
+      "thickness": 2.3270103408575062,
+      "density_scale": 0.9274587803778811,
+      "source_y": 0.28181292526831925,
+      "fast_fraction": 0.6488450078657796,
+      "family": "solid"
+    },
+    "high_seed": 106669,
+    "low_seed": 706799
+  },
+  {
+    "id": "pool-067",
+    "split": "pool",
+    "config": {
+      "thickness": 3.9038890104126076,
+      "density_scale": 1.25104618191157,
+      "source_y": 2.5317069912880372,
+      "fast_fraction": 0.8045351084806589,
+      "family": "solid"
+    },
+    "high_seed": 106770,
+    "low_seed": 706902
+  },
+  {
+    "id": "pool-068",
+    "split": "pool",
+    "config": {
+      "thickness": 2.4358447129033456,
+      "density_scale": 1.0944299845486767,
+      "source_y": -1.1118338149051687,
+      "fast_fraction": 0.7961787903016542,
+      "family": "solid"
+    },
+    "high_seed": 106871,
+    "low_seed": 707005
+  },
+  {
+    "id": "pool-069",
+    "split": "pool",
+    "config": {
+      "thickness": 4.4366998658852985,
+      "density_scale": 1.157234894879476,
+      "source_y": 2.0110921381998352,
+      "fast_fraction": 0.7601064498108037,
+      "family": "solid"
+    },
+    "high_seed": 106972,
+    "low_seed": 707108
+  },
+  {
+    "id": "pool-070",
+    "split": "pool",
+    "config": {
+      "thickness": 4.252746909922177,
+      "density_scale": 0.8726097136619037,
+      "source_y": -0.7741942206568408,
+      "fast_fraction": 0.7127150847646838,
+      "family": "solid"
+    },
+    "high_seed": 107073,
+    "low_seed": 707211
+  },
+  {
+    "id": "pool-071",
+    "split": "pool",
+    "config": {
+      "thickness": 4.189440205580279,
+      "density_scale": 1.2075093008395286,
+      "source_y": 2.2227537485927726,
+      "fast_fraction": 0.8501574025709518,
+      "family": "solid"
+    },
+    "high_seed": 107174,
+    "low_seed": 707314
+  },
+  {
+    "id": "pool-072",
+    "split": "pool",
+    "config": {
+      "thickness": 4.743543687354429,
+      "density_scale": 0.996560001011908,
+      "source_y": 0.2032167776326368,
+      "fast_fraction": 0.6944656490264685,
+      "family": "solid"
+    },
+    "high_seed": 107275,
+    "low_seed": 707417
+  },
+  {
+    "id": "pool-073",
+    "split": "pool",
+    "config": {
+      "thickness": 4.572355457266157,
+      "density_scale": 0.8990438268728428,
+      "source_y": -2.837168798083463,
+      "fast_fraction": 0.950063987979941,
+      "family": "solid"
+    },
+    "high_seed": 107376,
+    "low_seed": 707520
+  },
+  {
+    "id": "pool-074",
+    "split": "pool",
+    "config": {
+      "thickness": 4.592775140496711,
+      "density_scale": 0.8138884809457732,
+      "source_y": 1.3009137009844807,
+      "fast_fraction": 0.8157565864321212,
+      "family": "solid"
+    },
+    "high_seed": 107477,
+    "low_seed": 707623
+  },
+  {
+    "id": "pool-075",
+    "split": "pool",
+    "config": {
+      "thickness": 3.0028153711416072,
+      "density_scale": 0.8661591279682479,
+      "source_y": 1.8302051340390264,
+      "fast_fraction": 0.7394611593481286,
+      "family": "solid"
+    },
+    "high_seed": 107578,
+    "low_seed": 707726
+  },
+  {
+    "id": "pool-076",
+    "split": "pool",
+    "config": {
+      "thickness": 4.982649634153821,
+      "density_scale": 0.7386071456006431,
+      "source_y": -1.8831784467140602,
+      "fast_fraction": 0.7665621666365124,
+      "family": "solid"
+    },
+    "high_seed": 107679,
+    "low_seed": 707829
+  },
+  {
+    "id": "pool-077",
+    "split": "pool",
+    "config": {
+      "thickness": 1.799600911280594,
+      "density_scale": 1.1060216762915975,
+      "source_y": -2.4699251828159383,
+      "fast_fraction": 0.9839376819986078,
+      "family": "solid"
+    },
+    "high_seed": 107780,
+    "low_seed": 707932
+  },
+  {
+    "id": "pool-078",
+    "split": "pool",
+    "config": {
+      "thickness": 2.180856607263261,
+      "density_scale": 0.6003502962541026,
+      "source_y": -2.5532774203581594,
+      "fast_fraction": 0.6042325903660473,
+      "family": "solid"
+    },
+    "high_seed": 107881,
+    "low_seed": 708035
+  },
+  {
+    "id": "pool-079",
+    "split": "pool",
+    "config": {
+      "thickness": 4.36619787625383,
+      "density_scale": 1.2259599405512005,
+      "source_y": 0.565990677794947,
+      "fast_fraction": 0.9076974123427619,
+      "family": "solid"
+    },
+    "high_seed": 107982,
+    "low_seed": 708138
+  },
+  {
+    "id": "pool-080",
+    "split": "pool",
+    "config": {
+      "thickness": 1.3736198433790838,
+      "density_scale": 0.9154895898632801,
+      "source_y": 0.3296828655368982,
+      "fast_fraction": 0.6886821975028666,
+      "family": "solid"
+    },
+    "high_seed": 108083,
+    "low_seed": 708241
+  },
+  {
+    "id": "pool-081",
+    "split": "pool",
+    "config": {
+      "thickness": 2.252325843331712,
+      "density_scale": 1.3013919376784695,
+      "source_y": 2.756479312774742,
+      "fast_fraction": 0.7528485762539352,
+      "family": "solid"
+    },
+    "high_seed": 108184,
+    "low_seed": 708344
+  },
+  {
+    "id": "pool-082",
+    "split": "pool",
+    "config": {
+      "thickness": 1.6969964632367658,
+      "density_scale": 0.6286450389442305,
+      "source_y": -1.4817660109716009,
+      "fast_fraction": 0.9907447650890021,
+      "family": "solid"
+    },
+    "high_seed": 108285,
+    "low_seed": 708447
+  },
+  {
+    "id": "pool-083",
+    "split": "pool",
+    "config": {
+      "thickness": 1.1742934355853158,
+      "density_scale": 0.7680725773555606,
+      "source_y": -1.7024864665048742,
+      "fast_fraction": 0.8377544231851272,
+      "family": "solid"
+    },
+    "high_seed": 108386,
+    "low_seed": 708550
+  },
+  {
+    "id": "pool-084",
+    "split": "pool",
+    "config": {
+      "thickness": 2.347019098429297,
+      "density_scale": 1.2736842393430579,
+      "source_y": 2.1409908970224008,
+      "fast_fraction": 0.9973688768292279,
+      "family": "solid"
+    },
+    "high_seed": 108487,
+    "low_seed": 708653
+  },
+  {
+    "id": "pool-085",
+    "split": "pool",
+    "config": {
+      "thickness": 3.8624893447680257,
+      "density_scale": 1.0388246938918773,
+      "source_y": -0.5981969240438225,
+      "fast_fraction": 0.7366291938443945,
+      "family": "solid"
+    },
+    "high_seed": 108588,
+    "low_seed": 708756
+  },
+  {
+    "id": "pool-086",
+    "split": "pool",
+    "config": {
+      "thickness": 2.7344316741918475,
+      "density_scale": 0.8775574916090972,
+      "source_y": 1.4805210622474618,
+      "fast_fraction": 0.6788265142160897,
+      "family": "solid"
+    },
+    "high_seed": 108689,
+    "low_seed": 708859
+  },
+  {
+    "id": "pool-087",
+    "split": "pool",
+    "config": {
+      "thickness": 3.097962159671735,
+      "density_scale": 1.325528030068536,
+      "source_y": 1.7274687197648824,
+      "fast_fraction": 0.6623854405298413,
+      "family": "solid"
+    },
+    "high_seed": 108790,
+    "low_seed": 708962
+  },
+  {
+    "id": "pool-088",
+    "split": "pool",
+    "config": {
+      "thickness": 1.6100134383812996,
+      "density_scale": 0.8469758123852484,
+      "source_y": -0.8825218996665982,
+      "fast_fraction": 0.9526401321183607,
+      "family": "solid"
+    },
+    "high_seed": 108891,
+    "low_seed": 709065
+  },
+  {
+    "id": "pool-089",
+    "split": "pool",
+    "config": {
+      "thickness": 4.616727785649218,
+      "density_scale": 0.8603542379813486,
+      "source_y": -1.3620572170105147,
+      "fast_fraction": 0.9385131488078616,
+      "family": "solid"
+    },
+    "high_seed": 108992,
+    "low_seed": 709168
+  },
+  {
+    "id": "pool-090",
+    "split": "pool",
+    "config": {
+      "thickness": 4.5231922923091865,
+      "density_scale": 1.2948055534809109,
+      "source_y": -0.6166035766631119,
+      "fast_fraction": 0.9105182747627599,
+      "family": "solid"
+    },
+    "high_seed": 109093,
+    "low_seed": 709271
+  },
+  {
+    "id": "pool-091",
+    "split": "pool",
+    "config": {
+      "thickness": 3.0658529719115637,
+      "density_scale": 1.2115264674761144,
+      "source_y": -0.40531490533563197,
+      "fast_fraction": 0.7938653965440347,
+      "family": "solid"
+    },
+    "high_seed": 109194,
+    "low_seed": 709374
+  },
+  {
+    "id": "pool-092",
+    "split": "pool",
+    "config": {
+      "thickness": 4.4752297118736255,
+      "density_scale": 1.1417578503635863,
+      "source_y": -0.5405434414544636,
+      "fast_fraction": 0.8830920952474273,
+      "family": "solid"
+    },
+    "high_seed": 109295,
+    "low_seed": 709477
+  },
+  {
+    "id": "pool-093",
+    "split": "pool",
+    "config": {
+      "thickness": 1.8558387117313566,
+      "density_scale": 0.7639248878408104,
+      "source_y": 1.41214935057328,
+      "fast_fraction": 0.9149063089428273,
+      "family": "solid"
+    },
+    "high_seed": 109396,
+    "low_seed": 709580
+  },
+  {
+    "id": "pool-094",
+    "split": "pool",
+    "config": {
+      "thickness": 3.602179101361016,
+      "density_scale": 1.0730665050871995,
+      "source_y": -1.7912915823562323,
+      "fast_fraction": 0.6732279534748055,
+      "family": "solid"
+    },
+    "high_seed": 109497,
+    "low_seed": 709683
+  },
+  {
+    "id": "pool-095",
+    "split": "pool",
+    "config": {
+      "thickness": 3.1430869604653533,
+      "density_scale": 1.252268415491998,
+      "source_y": 2.367231463134213,
+      "fast_fraction": 0.6423896476455649,
+      "family": "solid"
+    },
+    "high_seed": 109598,
+    "low_seed": 709786
+  },
+  {
+    "id": "calibration-096",
+    "split": "calibration",
+    "config": {
+      "thickness": 4.865592033081757,
+      "density_scale": 1.1513784778548644,
+      "source_y": -1.2168437921767161,
+      "fast_fraction": 0.6168539639060235,
+      "family": "solid"
+    },
+    "high_seed": 109699,
+    "low_seed": 709889
+  },
+  {
+    "id": "calibration-097",
+    "split": "calibration",
+    "config": {
+      "thickness": 3.346547140237488,
+      "density_scale": 1.1302760427547462,
+      "source_y": -0.7283313323062646,
+      "fast_fraction": 0.9584551222362012,
+      "family": "solid"
+    },
+    "high_seed": 109800,
+    "low_seed": 709992
+  },
+  {
+    "id": "calibration-098",
+    "split": "calibration",
+    "config": {
+      "thickness": 4.064505193402949,
+      "density_scale": 1.2350025067631742,
+      "source_y": -0.8871488790165447,
+      "fast_fraction": 0.7133614287186867,
+      "family": "solid"
+    },
+    "high_seed": 109901,
+    "low_seed": 710095
+  },
+  {
+    "id": "calibration-099",
+    "split": "calibration",
+    "config": {
+      "thickness": 4.046416939594472,
+      "density_scale": 1.3723625711321517,
+      "source_y": -2.4018579617389797,
+      "fast_fraction": 0.6309114990641621,
+      "family": "solid"
+    },
+    "high_seed": 110002,
+    "low_seed": 710198
+  },
+  {
+    "id": "calibration-100",
+    "split": "calibration",
+    "config": {
+      "thickness": 1.140489307259281,
+      "density_scale": 1.1618504227989748,
+      "source_y": -1.1282606979333538,
+      "fast_fraction": 0.9941941778091856,
+      "family": "solid"
+    },
+    "high_seed": 110103,
+    "low_seed": 710301
+  },
+  {
+    "id": "calibration-101",
+    "split": "calibration",
+    "config": {
+      "thickness": 1.8400087663344347,
+      "density_scale": 0.6351258534251102,
+      "source_y": 1.0484991134739623,
+      "fast_fraction": 0.734463892847961,
+      "family": "solid"
+    },
+    "high_seed": 110204,
+    "low_seed": 710404
+  },
+  {
+    "id": "calibration-102",
+    "split": "calibration",
+    "config": {
+      "thickness": 2.1516500506326004,
+      "density_scale": 1.0230554880411058,
+      "source_y": -1.5492139858654779,
+      "fast_fraction": 0.9656401523056676,
+      "family": "solid"
+    },
+    "high_seed": 110305,
+    "low_seed": 710507
+  },
+  {
+    "id": "calibration-103",
+    "split": "calibration",
+    "config": {
+      "thickness": 3.047805106207113,
+      "density_scale": 0.6846170628972374,
+      "source_y": 0.7347185591982504,
+      "fast_fraction": 0.8616809596246877,
+      "family": "solid"
+    },
+    "high_seed": 110406,
+    "low_seed": 710610
+  },
+  {
+    "id": "calibration-104",
+    "split": "calibration",
+    "config": {
+      "thickness": 2.5699848297782286,
+      "density_scale": 1.175551988768425,
+      "source_y": -0.31711870507743223,
+      "fast_fraction": 0.7076466932722492,
+      "family": "solid"
+    },
+    "high_seed": 110507,
+    "low_seed": 710713
+  },
+  {
+    "id": "calibration-105",
+    "split": "calibration",
+    "config": {
+      "thickness": 4.88187167109302,
+      "density_scale": 0.704370160432517,
+      "source_y": -1.4612647476062575,
+      "fast_fraction": 0.6461820558820892,
+      "family": "solid"
+    },
+    "high_seed": 110608,
+    "low_seed": 710816
+  },
+  {
+    "id": "calibration-106",
+    "split": "calibration",
+    "config": {
+      "thickness": 2.934725512693682,
+      "density_scale": 1.3802194636035736,
+      "source_y": -0.9914350676092303,
+      "fast_fraction": 0.8148558631986306,
+      "family": "solid"
+    },
+    "high_seed": 110709,
+    "low_seed": 710919
+  },
+  {
+    "id": "calibration-107",
+    "split": "calibration",
+    "config": {
+      "thickness": 3.2428855157036818,
+      "density_scale": 1.3370752971199713,
+      "source_y": -2.7339448848917876,
+      "fast_fraction": 0.7424807481431798,
+      "family": "solid"
+    },
+    "high_seed": 110810,
+    "low_seed": 711022
+  },
+  {
+    "id": "calibration-108",
+    "split": "calibration",
+    "config": {
+      "thickness": 1.8969194325866674,
+      "density_scale": 0.9741616466487124,
+      "source_y": 1.0984416503372518,
+      "fast_fraction": 0.8404721650807463,
+      "family": "solid"
+    },
+    "high_seed": 110911,
+    "low_seed": 711125
+  },
+  {
+    "id": "calibration-109",
+    "split": "calibration",
+    "config": {
+      "thickness": 2.6899605935303637,
+      "density_scale": 1.3508077331121957,
+      "source_y": 1.2566684007098559,
+      "fast_fraction": 0.6367669391074802,
+      "family": "solid"
+    },
+    "high_seed": 111012,
+    "low_seed": 711228
+  },
+  {
+    "id": "calibration-110",
+    "split": "calibration",
+    "config": {
+      "thickness": 1.9000792468790024,
+      "density_scale": 0.6208836456984321,
+      "source_y": 0.23148548197376684,
+      "fast_fraction": 0.9019695400917195,
+      "family": "solid"
+    },
+    "high_seed": 111113,
+    "low_seed": 711331
+  },
+  {
+    "id": "calibration-111",
+    "split": "calibration",
+    "config": {
+      "thickness": 3.193828714007912,
+      "density_scale": 1.2458422081302674,
+      "source_y": 0.9952246962712001,
+      "fast_fraction": 0.7775026382253727,
+      "family": "solid"
+    },
+    "high_seed": 111214,
+    "low_seed": 711434
+  },
+  {
+    "id": "calibration-112",
+    "split": "calibration",
+    "config": {
+      "thickness": 4.955125728568737,
+      "density_scale": 0.6995875126935143,
+      "source_y": -2.3573526028091423,
+      "fast_fraction": 0.7754598063613363,
+      "family": "solid"
+    },
+    "high_seed": 111315,
+    "low_seed": 711537
+  },
+  {
+    "id": "calibration-113",
+    "split": "calibration",
+    "config": {
+      "thickness": 4.763912385731671,
+      "density_scale": 1.0515426858900199,
+      "source_y": -1.0712122871538292,
+      "fast_fraction": 0.9538954648637642,
+      "family": "solid"
+    },
+    "high_seed": 111416,
+    "low_seed": 711640
+  },
+  {
+    "id": "calibration-114",
+    "split": "calibration",
+    "config": {
+      "thickness": 4.116998417468733,
+      "density_scale": 0.8007883409282944,
+      "source_y": -1.2644483148945223,
+      "fast_fraction": 0.8916262894692885,
+      "family": "solid"
+    },
+    "high_seed": 111517,
+    "low_seed": 711743
+  },
+  {
+    "id": "calibration-115",
+    "split": "calibration",
+    "config": {
+      "thickness": 4.139082551576786,
+      "density_scale": 1.1244113840870773,
+      "source_y": -2.023042925141197,
+      "fast_fraction": 0.8982485307433916,
+      "family": "solid"
+    },
+    "high_seed": 111618,
+    "low_seed": 711846
+  },
+  {
+    "id": "calibration-116",
+    "split": "calibration",
+    "config": {
+      "thickness": 3.984559056774601,
+      "density_scale": 0.6797811474897288,
+      "source_y": -0.22115590991662648,
+      "fast_fraction": 0.9223699508802053,
+      "family": "solid"
+    },
+    "high_seed": 111719,
+    "low_seed": 711949
+  },
+  {
+    "id": "calibration-117",
+    "split": "calibration",
+    "config": {
+      "thickness": 3.288945043061458,
+      "density_scale": 0.9881063156082289,
+      "source_y": -0.24538626516100415,
+      "fast_fraction": 0.6540037291675028,
+      "family": "solid"
+    },
+    "high_seed": 111820,
+    "low_seed": 712052
+  },
+  {
+    "id": "calibration-118",
+    "split": "calibration",
+    "config": {
+      "thickness": 4.769857493831729,
+      "density_scale": 1.3673124833386283,
+      "source_y": 1.314082672648599,
+      "fast_fraction": 0.645404945658791,
+      "family": "solid"
+    },
+    "high_seed": 111921,
+    "low_seed": 712155
+  },
+  {
+    "id": "calibration-119",
+    "split": "calibration",
+    "config": {
+      "thickness": 2.0925967684016142,
+      "density_scale": 1.0159446151418576,
+      "source_y": -1.18132734242648,
+      "fast_fraction": 0.8203532249269387,
+      "family": "solid"
+    },
+    "high_seed": 112022,
+    "low_seed": 712258
+  },
+  {
+    "id": "test-120",
+    "split": "test",
+    "config": {
+      "thickness": 2.777512371708241,
+      "density_scale": 0.6973005070519602,
+      "source_y": 2.292231274702023,
+      "fast_fraction": 0.6406936374470988,
+      "family": "solid"
+    },
+    "high_seed": 112123,
+    "low_seed": 712361
+  },
+  {
+    "id": "test-121",
+    "split": "test",
+    "config": {
+      "thickness": 3.9704078133290923,
+      "density_scale": 0.647421595825649,
+      "source_y": 1.2036641829169321,
+      "fast_fraction": 0.8605778386511067,
+      "family": "solid"
+    },
+    "high_seed": 112224,
+    "low_seed": 712464
+  },
+  {
+    "id": "test-122",
+    "split": "test",
+    "config": {
+      "thickness": 3.508981001626569,
+      "density_scale": 1.2218278474635902,
+      "source_y": -1.3432951194624365,
+      "fast_fraction": 0.9867553901465179,
+      "family": "solid"
+    },
+    "high_seed": 112325,
+    "low_seed": 712567
+  },
+  {
+    "id": "test-123",
+    "split": "test",
+    "config": {
+      "thickness": 2.04582240687203,
+      "density_scale": 1.0442429446151424,
+      "source_y": -0.039143947339873364,
+      "fast_fraction": 0.7845619209773047,
+      "family": "solid"
+    },
+    "high_seed": 112426,
+    "low_seed": 712670
+  },
+  {
+    "id": "test-124",
+    "split": "test",
+    "config": {
+      "thickness": 4.422792146723744,
+      "density_scale": 0.6671969623178018,
+      "source_y": 2.074051905125147,
+      "fast_fraction": 0.8972896142161702,
+      "family": "solid"
+    },
+    "high_seed": 112527,
+    "low_seed": 712773
+  },
+  {
+    "id": "test-125",
+    "split": "test",
+    "config": {
+      "thickness": 1.761175289277893,
+      "density_scale": 0.9615391467168273,
+      "source_y": -1.0044151599378643,
+      "fast_fraction": 0.6969387112756493,
+      "family": "solid"
+    },
+    "high_seed": 112628,
+    "low_seed": 712876
+  },
+  {
+    "id": "test-126",
+    "split": "test",
+    "config": {
+      "thickness": 1.4688907030204112,
+      "density_scale": 1.2697490611848656,
+      "source_y": -2.2357731199127717,
+      "fast_fraction": 0.9052639990206404,
+      "family": "solid"
+    },
+    "high_seed": 112729,
+    "low_seed": 712979
+  },
+  {
+    "id": "test-127",
+    "split": "test",
+    "config": {
+      "thickness": 4.820577607570996,
+      "density_scale": 1.061070426994915,
+      "source_y": -0.09871231978623207,
+      "fast_fraction": 0.9438616058072808,
+      "family": "solid"
+    },
+    "high_seed": 112830,
+    "low_seed": 713082
+  },
+  {
+    "id": "test-128",
+    "split": "test",
+    "config": {
+      "thickness": 2.4614352574462224,
+      "density_scale": 0.8165561538615624,
+      "source_y": 2.9176013290216254,
+      "fast_fraction": 0.7695733589218616,
+      "family": "solid"
+    },
+    "high_seed": 112931,
+    "low_seed": 713185
+  },
+  {
+    "id": "test-129",
+    "split": "test",
+    "config": {
+      "thickness": 4.1616674904365,
+      "density_scale": 0.6055517992484114,
+      "source_y": 1.7853824362271284,
+      "fast_fraction": 0.7167851931075282,
+      "family": "solid"
+    },
+    "high_seed": 113032,
+    "low_seed": 713288
+  },
+  {
+    "id": "test-130",
+    "split": "test",
+    "config": {
+      "thickness": 1.3230033409964699,
+      "density_scale": 1.3627590717660534,
+      "source_y": 0.8433706567619836,
+      "fast_fraction": 0.9754173697191648,
+      "family": "solid"
+    },
+    "high_seed": 113133,
+    "low_seed": 713391
+  },
+  {
+    "id": "test-131",
+    "split": "test",
+    "config": {
+      "thickness": 1.3904694372630357,
+      "density_scale": 0.7465799027866372,
+      "source_y": -0.9533292601713179,
+      "fast_fraction": 0.6266681402992232,
+      "family": "solid"
+    },
+    "high_seed": 113234,
+    "low_seed": 713494
+  },
+  {
+    "id": "test-132",
+    "split": "test",
+    "config": {
+      "thickness": 3.5811225329317846,
+      "density_scale": 1.007290295261396,
+      "source_y": -2.118002473103952,
+      "fast_fraction": 0.809294872691771,
+      "family": "solid"
+    },
+    "high_seed": 113335,
+    "low_seed": 713597
+  },
+  {
+    "id": "test-133",
+    "split": "test",
+    "config": {
+      "thickness": 3.5446990801060663,
+      "density_scale": 1.3743630424953763,
+      "source_y": -2.5218291317935675,
+      "fast_fraction": 0.9410276413493046,
+      "family": "solid"
+    },
+    "high_seed": 113436,
+    "low_seed": 713700
+  },
+  {
+    "id": "test-134",
+    "split": "test",
+    "config": {
+      "thickness": 2.61726224004118,
+      "density_scale": 1.3482867335079836,
+      "source_y": 1.007542792323921,
+      "fast_fraction": 0.690444743625011,
+      "family": "solid"
+    },
+    "high_seed": 113537,
+    "low_seed": 713803
+  },
+  {
+    "id": "test-135",
+    "split": "test",
+    "config": {
+      "thickness": 1.7703759889343194,
+      "density_scale": 1.0993784638879989,
+      "source_y": -0.8114968467667985,
+      "fast_fraction": 0.6846387320672751,
+      "family": "solid"
+    },
+    "high_seed": 113638,
+    "low_seed": 713906
+  },
+  {
+    "id": "test-136",
+    "split": "test",
+    "config": {
+      "thickness": 1.9421591163425627,
+      "density_scale": 1.2838108167449305,
+      "source_y": 0.4980961393999874,
+      "fast_fraction": 0.8533395003122075,
+      "family": "solid"
+    },
+    "high_seed": 113739,
+    "low_seed": 714009
+  },
+  {
+    "id": "test-137",
+    "split": "test",
+    "config": {
+      "thickness": 1.2098344208814764,
+      "density_scale": 1.3387391260029633,
+      "source_y": 2.7921197582838255,
+      "fast_fraction": 0.6823755028258816,
+      "family": "solid"
+    },
+    "high_seed": 113840,
+    "low_seed": 714112
+  },
+  {
+    "id": "test-138",
+    "split": "test",
+    "config": {
+      "thickness": 1.5818930209311213,
+      "density_scale": 0.947200299048844,
+      "source_y": 1.5304810382142033,
+      "fast_fraction": 0.831744974317314,
+      "family": "solid"
+    },
+    "high_seed": 113941,
+    "low_seed": 714215
+  },
+  {
+    "id": "test-139",
+    "split": "test",
+    "config": {
+      "thickness": 3.813709878724377,
+      "density_scale": 1.035607409525455,
+      "source_y": 2.0791416140335883,
+      "fast_fraction": 0.8588818713343469,
+      "family": "solid"
+    },
+    "high_seed": 114042,
+    "low_seed": 714318
+  },
+  {
+    "id": "test-140",
+    "split": "test",
+    "config": {
+      "thickness": 2.8133193540025503,
+      "density_scale": 0.9681769687466305,
+      "source_y": 2.6444199983899965,
+      "fast_fraction": 0.7042265374954705,
+      "family": "solid"
+    },
+    "high_seed": 114143,
+    "low_seed": 714421
+  },
+  {
+    "id": "test-141",
+    "split": "test",
+    "config": {
+      "thickness": 2.996743956052355,
+      "density_scale": 0.8068262380191928,
+      "source_y": 2.956096383154428,
+      "fast_fraction": 0.9266211807505219,
+      "family": "solid"
+    },
+    "high_seed": 114244,
+    "low_seed": 714524
+  },
+  {
+    "id": "test-142",
+    "split": "test",
+    "config": {
+      "thickness": 2.4948913686411296,
+      "density_scale": 0.9787571734952186,
+      "source_y": 2.4634407946240557,
+      "fast_fraction": 0.9792389259840191,
+      "family": "solid"
+    },
+    "high_seed": 114345,
+    "low_seed": 714627
+  },
+  {
+    "id": "test-143",
+    "split": "test",
+    "config": {
+      "thickness": 3.377023699563151,
+      "density_scale": 1.1949500256355088,
+      "source_y": -2.858147005284577,
+      "fast_fraction": 0.7883768011712476,
+      "family": "solid"
+    },
+    "high_seed": 114446,
+    "low_seed": 714730
+  },
+  {
+    "id": "ood-144",
+    "split": "ood",
+    "config": {
+      "thickness": 1.6166971559856946,
+      "density_scale": 0.7874369027965057,
+      "source_y": 1.7419575594154146,
+      "fast_fraction": 0.7732066847111306,
+      "family": "window"
+    },
+    "high_seed": 114547,
+    "low_seed": 714833
+  },
+  {
+    "id": "ood-145",
+    "split": "ood",
+    "config": {
+      "thickness": 4.227882854465917,
+      "density_scale": 0.7301565321103234,
+      "source_y": -0.12815415358147897,
+      "fast_fraction": 0.7472834222101591,
+      "family": "window"
+    },
+    "high_seed": 114648,
+    "low_seed": 714936
+  },
+  {
+    "id": "ood-146",
+    "split": "ood",
+    "config": {
+      "thickness": 3.269092613712021,
+      "density_scale": 0.7185499908530164,
+      "source_y": 2.877923023923496,
+      "fast_fraction": 0.9897122873177441,
+      "family": "window"
+    },
+    "high_seed": 114749,
+    "low_seed": 715039
+  },
+  {
+    "id": "ood-147",
+    "split": "ood",
+    "config": {
+      "thickness": 1.1055136927156832,
+      "density_scale": 1.0027710809585288,
+      "source_y": -0.3464037836167151,
+      "fast_fraction": 0.6701194652495418,
+      "family": "window"
+    },
+    "high_seed": 114850,
+    "low_seed": 715142
+  },
+  {
+    "id": "ood-148",
+    "split": "ood",
+    "config": {
+      "thickness": 2.601162579946753,
+      "density_scale": 0.8857868102588065,
+      "source_y": -1.682994579849849,
+      "fast_fraction": 0.8051766449327574,
+      "family": "window"
+    },
+    "high_seed": 114951,
+    "low_seed": 715245
+  },
+  {
+    "id": "ood-149",
+    "split": "ood",
+    "config": {
+      "thickness": 3.406956119765868,
+      "density_scale": 1.0699970409912751,
+      "source_y": -1.2811152036543993,
+      "fast_fraction": 0.6081014914571412,
+      "family": "window"
+    },
+    "high_seed": 115052,
+    "low_seed": 715348
+  },
+  {
+    "id": "ood-150",
+    "split": "ood",
+    "config": {
+      "thickness": 3.838821831795271,
+      "density_scale": 0.9897856985229152,
+      "source_y": -0.7553631906345584,
+      "fast_fraction": 0.8852599913819126,
+      "family": "window"
+    },
+    "high_seed": 115153,
+    "low_seed": 715451
+  },
+  {
+    "id": "ood-151",
+    "split": "ood",
+    "config": {
+      "thickness": 3.5301830499399185,
+      "density_scale": 0.7366001294750638,
+      "source_y": 2.3965244189465373,
+      "fast_fraction": 0.653200510390554,
+      "family": "window"
+    },
+    "high_seed": 115254,
+    "low_seed": 715554
+  },
+  {
+    "id": "ood-152",
+    "split": "ood",
+    "config": {
+      "thickness": 3.2269789574630963,
+      "density_scale": 1.0279317002889572,
+      "source_y": -1.6141885350172203,
+      "fast_fraction": 0.7572240599035782,
+      "family": "window"
+    },
+    "high_seed": 115355,
+    "low_seed": 715657
+  },
+  {
+    "id": "ood-153",
+    "split": "ood",
+    "config": {
+      "thickness": 2.015489370814982,
+      "density_scale": 0.9539057191794134,
+      "source_y": 1.45552080235246,
+      "fast_fraction": 0.8414427561082208,
+      "family": "window"
+    },
+    "high_seed": 115456,
+    "low_seed": 715760
+  },
+  {
+    "id": "ood-154",
+    "split": "ood",
+    "config": {
+      "thickness": 3.463587116126821,
+      "density_scale": 1.3152957171477193,
+      "source_y": -0.2707128775584273,
+      "fast_fraction": 0.7908845753675926,
+      "family": "window"
+    },
+    "high_seed": 115557,
+    "low_seed": 715863
+  },
+  {
+    "id": "ood-155",
+    "split": "ood",
+    "config": {
+      "thickness": 4.688934440831824,
+      "density_scale": 0.6725359567620824,
+      "source_y": -0.4465679341780042,
+      "fast_fraction": 0.7016666766118361,
+      "family": "window"
+    },
+    "high_seed": 115658,
+    "low_seed": 715966
+  }
+]

@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this software and OpenMC when using FLUXATLAS."
+title: "FLUXATLAS: An Educational Radiation Transport Observatory"
+version: 0.1.0
+authors:
+  - name: Nazeeh
+repository-code: "https://github.com/nazeeh111/FLUXATLAS"
+license: MIT

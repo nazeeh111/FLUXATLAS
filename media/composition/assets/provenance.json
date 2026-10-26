@@ -1,0 +1,32 @@
+{
+  "archive_sha256": "61fb3a81f319351f3d576280e23649edd6bb5ff90455373ab2767b532646fd9f",
+  "case_id": "test-141",
+  "selection_rule": "Held-out case nearest the median both-group field relative L2",
+  "configuration": {
+    "thickness": 4.937220063261529,
+    "density_scale": 1.0118735699715877,
+    "source_y": 0.6438330313600082,
+    "fast_fraction": 0.7189836607811522,
+    "family": "solid"
+  },
+  "histories": 40000,
+  "seed": 3015088,
+  "case_relative_l2": 0.054956189814130384,
+  "reference_flux_limits": [
+    8.968908098601175e-05,
+    0.8968908098601174
+  ],
+  "error_upper": 0.058026018779598676,
+  "trial_repeats": 3,
+  "source": "web/atlas.json",
+  "normalization": "cm^-2 per source particle",
+  "no_data_smoothing": true,
+  "protocol_version": 2,
+  "screenshot_sha256": "35a1b9db4fe8bc8bbf685d84b85435c4fad1238bfc080d637035edb8742791a6",
+  "screenshot_crop_pixels": {
+    "x": 0,
+    "y": 0,
+    "width": 1470,
+    "height": 1120
+  }
+}

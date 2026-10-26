@@ -1,0 +1,20 @@
+{
+  "status": {
+    "prediction": true,
+    "solver": true,
+    "mode": "local",
+    "interval_level": 0.9
+  },
+  "prediction_kind": "new_model_prediction",
+  "reference_kind": "new_openmc_execution",
+  "reference_seed": 1970021,
+  "reference_histories": 10000,
+  "prediction_shape": [
+    2,
+    480
+  ],
+  "invalid_config_status": 400,
+  "cross_origin_status": 403,
+  "ood_window_detected": true,
+  "passed": true
+}

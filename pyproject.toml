@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fluxatlas"
+version = "0.1.0"
+description = "An educational OpenMC transport observatory and uncertainty-aware learned field laboratory"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Nazeeh", email = "nazeeh111@users.noreply.github.com"}]
+dependencies = ["numpy>=1.26", "scipy>=1.12", "scikit-learn>=1.4", "h5py>=3.10", "matplotlib>=3.8"]
+[project.optional-dependencies]
+test = ["pytest>=8", "build>=1"]
+[project.scripts]
+fluxatlas = "fluxatlas.cli:main"
+[tool.setuptools]
+package-dir = {"" = "src"}
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["openmc: requires the OpenMC executable and Python module"]
+
+[tool.setuptools.data-files]
+"share/fluxatlas/web" = ["web/*"]
+"share/fluxatlas/data" = ["data/*.json", "data/*.npz"]
+"share/fluxatlas/docs" = ["docs/*.md"]

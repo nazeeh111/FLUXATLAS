@@ -1,0 +1,213 @@
+{
+  "ok": true,
+  "strict": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 4,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 4.125,
+        "selector": "div.brand.s1-brand > span:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 163,
+          "top": 78,
+          "right": 257.55,
+          "bottom": 118,
+          "width": 94.55,
+          "height": 40
+        },
+        "containerSelector": "span.eyebrow.s2-eyebrow",
+        "text": "FLUXATLAS",
+        "fixHint": "Give each block its own zone, or mark intentional layering with data-layout-allow-overlap.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 163,
+          "y": 78,
+          "width": 94.55,
+          "height": 40
+        },
+        "firstSeen": 4.125,
+        "lastSeen": 4.125,
+        "occurrences": 1,
+        "heldMs": 0
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 4.125,
+        "selector": "div.brand.s1-brand > span:nth-of-type(1) > span:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 257.55,
+          "top": 78,
+          "right": 369.64,
+          "bottom": 118,
+          "width": 112.09,
+          "height": 40
+        },
+        "containerSelector": "span.eyebrow.s2-eyebrow",
+        "text": "ATLAS",
+        "fixHint": "Give each block its own zone, or mark intentional layering with data-layout-allow-overlap.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 257.55,
+          "y": 78,
+          "width": 112.09,
+          "height": 40
+        },
+        "firstSeen": 4.125,
+        "lastSeen": 4.125,
+        "occurrences": 1,
+        "heldMs": 0
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 10.125,
+        "selector": "span.eyebrow.s2-eyebrow",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 122,
+          "top": 82,
+          "right": 511.86,
+          "bottom": 104,
+          "width": 389.86,
+          "height": 22
+        },
+        "containerSelector": "span.eyebrow.s3-eyebrow",
+        "text": "01 / INDEPENDENT COMPARISON",
+        "fixHint": "Give each block its own zone, or mark intentional layering with data-layout-allow-overlap.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 122,
+          "y": 82,
+          "width": 389.86,
+          "height": 22
+        },
+        "firstSeen": 10.125,
+        "lastSeen": 10.125,
+        "occurrences": 1,
+        "heldMs": 0
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 16.125,
+        "selector": "span.eyebrow.s3-eyebrow",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 122,
+          "top": 82,
+          "right": 468.55,
+          "bottom": 104,
+          "width": 346.55,
+          "height": 22
+        },
+        "containerSelector": "div.eyebrow.s4-eyebrow",
+        "text": "02 / THE RESEARCH RECORD",
+        "fixHint": "Give each block its own zone, or mark intentional layering with data-layout-allow-overlap.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 122,
+          "y": 82,
+          "width": 346.55,
+          "height": 22
+        },
+        "firstSeen": 16.125,
+        "lastSeen": 16.125,
+        "occurrences": 1,
+        "heldMs": 0
+      }
+    ],
+    "duration": 20,
+    "samples": [
+      1.111,
+      3.333,
+      5.556,
+      7.778,
+      10,
+      12.222,
+      14.444,
+      16.667,
+      18.889
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 4,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      1.111,
+      5.556,
+      10,
+      14.444,
+      18.889
+    ],
+    "checked": 46,
+    "passed": 46
+  },
+  "snapshots": {
+    "enabled": true,
+    "files": [
+      "snapshots/frame-00-at-1.1s.png",
+      "snapshots/frame-01-at-5.6s.png",
+      "snapshots/frame-02-at-10.0s.png",
+      "snapshots/frame-03-at-14.4s.png",
+      "snapshots/frame-04-at-18.9s.png"
+    ],
+    "times": [
+      1.111,
+      5.556,
+      10,
+      14.444,
+      18.889
+    ],
+    "findingFiles": []
+  },
+  "_meta": {
+    "version": "0.8.33",
+    "latestVersion": "0.8.200",
+    "updateAvailable": true
+  }
+}

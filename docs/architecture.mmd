@@ -1,0 +1,18 @@
+flowchart LR
+    C --> B[Exact uncollided-beam integration]
+    B --> W
+    C[Validated configuration<br/>geometry · source · synthetic MG data] --> O[Independent OpenMC solver]
+    O --> T[Volume-normalized mesh tallies<br/>mean + standard error + seeds]
+    T --> D[Geometry-level partitions<br/>pool / calibration / test / OOD]
+    D --> L[Low-history pool<br/>POD basis + kernel field]
+    D --> H[Selected high-history labels]
+    L --> N[Trained residual MLP ensemble]
+    H --> N
+    N --> A[Uncertainty-driven acquisition]
+    A --> H
+    N --> Q[Reserved-geometry calibration]
+    D --> Q
+    Q --> V[Independent held-out comparisons<br/>baselines · coverage · cost]
+    V --> W[Hybrid field sum + observatory + exports]
+    Q --> P[Numeric NPZ model weights]
+    P --> W

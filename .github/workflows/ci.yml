@@ -1,0 +1,35 @@
+name: Scientific checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install '.[test]'
+      - run: pytest -m 'not openmc' -q
+      - run: fluxatlas predict --output /tmp/prediction.npz
+      - run: python -m build
+  openmc:
+    runs-on: ubuntu-latest
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-file: environment.yml
+          cache-environment: true
+      - name: Verify analytical transport and energy ordering
+        shell: bash -el {0}
+        run: pytest -m openmc -q
+      - name: Execute educational example without external nuclear data
+        shell: bash -el {0}
+        run: fluxatlas example --output /tmp/fluxatlas-example --particles 500
