@@ -2,7 +2,7 @@
 
 FLUXATLAS original code, branding, diagrams, synthetic macroscopic cross sections and generated numerical examples are distributed under the repository MIT license. Synthetic coefficients were authored for this educational benchmark. They are not measured or evaluated material data. No proprietary nuclear dataset is downloaded, copied or redistributed.
 
-OpenMC is a separate MIT-licensed dependency, credited to its developers and Romano et al. (2015), [doi:10.1016/j.anucene.2014.07.048](https://doi.org/10.1016/j.anucene.2014.07.048). Install it from conda-forge; FLUXATLAS does not relicense OpenMC. Runtime distributions retain their own notices. NumPy, SciPy, scikit-learn and h5py use BSD-family licenses; Matplotlib uses its own PSF-based license. The optional environment may install DAGMC and other OpenMC dependencies under their respective licenses, although FLUXATLAS does not use CAD transport.
+OpenMC is a separately installed MIT-licensed dependency. Install it from conda-forge; FLUXATLAS does not relicense OpenMC. Runtime distributions retain their own notices. NumPy, SciPy, scikit-learn and h5py use BSD-family licenses; Matplotlib uses its own PSF-based license. The optional environment may install DAGMC and other OpenMC dependencies under their respective licenses, although FLUXATLAS does not use CAD transport.
 
 NeuralOperator and neural-operator papers are research foundations, not copied implementation or bundled dependencies. The model here is a fixed-grid POD spatial neural surrogate. It does not demonstrate resolution-independent operator learning.
 

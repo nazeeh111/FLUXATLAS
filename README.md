@@ -83,6 +83,6 @@ The model is a fixed-grid spatial surrogate, not a demonstrated resolution-indep
 | `docs/` | Methods, reproducibility, limitations and generated figures |
 | `media/` | Genuine screenshots, film and editable composition |
 
-## Attribution
+## License
 
-Original FLUXATLAS code, synthetic data and branding are MIT licensed. OpenMC is a separate MIT-licensed dependency; cite Romano et al. (2015), [doi:10.1016/j.anucene.2014.07.048](https://doi.org/10.1016/j.anucene.2014.07.048). Neural operator, ensemble, multi-fidelity and conformal methods have established prior work; see the [primary-source research review](docs/research-foundations.md). No first-in-literature claim is made. See [licensing and data provenance](docs/licensing.md) and [CITATION.cff](CITATION.cff).
+Original code, synthetic data and branding use [MIT](LICENSE). See [dependency terms and data provenance](docs/licensing.md).
