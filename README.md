@@ -1,25 +1,25 @@
-<p align="left"><img src="web/mark.svg" width="58" alt="FLUXATLAS mark"></p>
+<p align="left"><img src="web/mark.svg" width="58" alt="FluxAtlas mark"></p>
 
-# FLUXATLAS
+# FluxAtlas
 
-**An educational radiation transport observatory. Independent physics, learned fields, visible uncertainty.**
+**Compare particle-transport simulations with learned radiation fields.**
 
-FLUXATLAS runs real OpenMC particle transport, trains a compact hybrid spatial surrogate, and makes their differences inspectable. It combines an exact uncollided beam with a genuinely trained multi-fidelity scattered-field model. All example materials are explicitly synthetic. Every reference, prediction, interval and benchmark has reproducible numerical provenance.
+Inspect saved OpenMC results beside a trained spatial surrogate, including their errors and uncertainty. The educational shielding examples use synthetic materials; new transport calculations run in the local OpenMC environment.
 
-![FLUXATLAS observatory](media/observatory.png)
+![FluxAtlas observatory](media/observatory.png)
 
 [Open the observatory](https://nazeeh111.github.io/FLUXATLAS/) · [Technical report](docs/technical-report.md) · [Reproduce the experiments](docs/reproducibility.md) · [Research foundations](docs/research-foundations.md) · [Launch film](media/brag.mp4) · [Versioned release](https://github.com/nazeeh111/FLUXATLAS/releases/tag/v0.1.0)
 
 ## Explore or compute
 
-Replay the genuine saved experiment archive with Python alone:
+Inspect the saved archive in the [public observatory](https://nazeeh111.github.io/FLUXATLAS/), or serve the same files from a checkout with Python alone:
 
 ```bash
 python -m http.server 8765 --directory web
 # Open http://localhost:8765
 ```
 
-This is explicitly labeled archive replay. It does not launch a solver or pretend to compute new predictions. For the full local laboratory:
+Archive replay displays retained results without running a solver or producing new predictions. For the full local laboratory:
 
 ```bash
 # Install micromamba or conda, then from this checkout:
