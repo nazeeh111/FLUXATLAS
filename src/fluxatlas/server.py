@@ -7,6 +7,7 @@ import shutil
 import threading
 import time
 from urllib.parse import urlparse
+from . import __version__
 from .config import Experiment
 from .model import FrozenSurrogate
 from .transport import run_reference
@@ -19,6 +20,7 @@ def serve(project,port=8765,cache=None):
     cache=Path(cache or Path.cwd()/".cache/fluxatlas")
     solver_lock=threading.Lock()
     class Handler(SimpleHTTPRequestHandler):
+        server_version=f"FLUXATLAS/{__version__}"
         def __init__(self,*args,**kwargs):
             super().__init__(*args,directory=str(project/"web"),**kwargs)
         def respond(self,status,value):
@@ -33,7 +35,8 @@ def serve(project,port=8765,cache=None):
             if self.path=="/api/status":
                 try:import openmc;available=bool(shutil.which("openmc"))
                 except ImportError:available=False
-                return self.respond(200,{"prediction":model is not None,"solver":available,"mode":"local","interval_level":.9})
+                return self.respond(200,{"prediction":model is not None,"solver":available,"mode":"local","interval_level":.9,
+                    "version":__version__,"model_sha256":model.sha256 if model is not None else None})
             if self.path=="/technical-report.md":
                 content=(project/"docs/technical-report.md").read_bytes()
                 self.send_response(200);self.send_header("Content-Type","text/markdown; charset=utf-8");self.send_header("Content-Length",str(len(content)));self.end_headers();self.wfile.write(content);return
@@ -71,6 +74,7 @@ def serve(project,port=8765,cache=None):
                 return self.respond(500,{"error":"Computation failed; inspect local server log"})
     server=ThreadingHTTPServer(("127.0.0.1",port),Handler)
     print(f"FLUXATLAS local observatory: http://127.0.0.1:{server.server_port}",flush=True)
+    print(f"FLUXATLAS {__version__} · trained-model {'ready' if model is not None else 'unavailable'} · Ctrl-C to stop",flush=True)
     try:server.serve_forever()
-    except KeyboardInterrupt:pass
+    except KeyboardInterrupt:print("FLUXATLAS local observatory stopped.",flush=True)
     finally:server.server_close()

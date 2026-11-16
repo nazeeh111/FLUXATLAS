@@ -6,40 +6,106 @@
 
 Inspect saved OpenMC results beside a trained spatial surrogate, including their errors and uncertainty. The educational shielding examples use synthetic materials; new transport calculations run in the local OpenMC environment.
 
-![FluxAtlas observatory](media/observatory.png)
+![Current FluxAtlas observatory showing retained archive case test-120](media/observatory-current.png)
+
+[Capture provenance](media/observatory-current.md) · Retained independent reference, educational synthetic data; no new OpenMC execution.
 
 [Open the observatory](https://nazeeh111.github.io/FLUXATLAS/) · [Technical report](docs/technical-report.md) · [Reproduce the experiments](docs/reproducibility.md) · [Research foundations](docs/research-foundations.md) · [Launch film](media/brag.mp4) · [Versioned release](https://github.com/nazeeh111/FLUXATLAS/releases/tag/v0.1.0)
 
-## Explore or compute
+This checkout is **0.1.1.dev0**, an unreleased product successor. The versioned
+release link retains the original 0.1.0 downloads and scientific record. Model
+weights, reference fields, calibration and study results retain their original
+identities; the CLI reports the installed software generation separately.
 
-Inspect the saved archive in the [public observatory](https://nazeeh111.github.io/FLUXATLAS/), or serve the same files from a checkout with Python alone:
+## Explore without a solver
+
+Inspect the saved archive in the [public observatory](https://nazeeh111.github.io/FLUXATLAS/),
+or serve the same files from a complete checkout with Python alone:
 
 ```bash
-python -m http.server 8765 --directory web
-# Open http://localhost:8765
+git clone https://github.com/nazeeh111/FLUXATLAS.git
+cd FLUXATLAS
+python3 -m http.server 8765 --bind 127.0.0.1 --directory web
+# Open http://127.0.0.1:8765
 ```
 
-Archive replay displays retained results without running a solver or producing new predictions. For the full local laboratory:
+Archive replay displays retained results. Moving geometry controls previews a
+configuration; the field maps remain attached to the prior computation until a
+new model query or reference run succeeds. Static replay produces neither.
+The plotted field is volume-mean scalar flux per source particle, not dose;
+geometry uses synthetic materials.
+
+## Query the retained weights and compare saved fields
+
+A pip-only installation supports inference and comparison without OpenMC:
 
 ```bash
-# Install micromamba or conda, then from this checkout:
+python3 -m pip install .
+fluxatlas --version
+fluxatlas predict --output my-prediction.npz
+fluxatlas compare --prediction my-prediction.npz \
+  --reference examples/reference/018aaf1e873bfacdc6f5/field.npz \
+  --output comparison.json
+fluxatlas serve
+```
+
+Run those commands from the complete checkout so the saved reference example is
+available. The installed wheel bundles the observatory, model weights, primary
+data arrays and Markdown methods; it does not place the repository's examples
+or historical research directories in your working directory. From elsewhere,
+pass the absolute path to an existing reference and keep its metadata.json
+alongside it. Prediction uses the installed package's bundled numeric weights.
+
+The observatory's **Export configuration** JSON can be passed directly to
+`fluxatlas predict --config exported-configuration.json --output new-field.npz`.
+The existing schema-1 envelope must contain its complete experiment configuration;
+unknown versions and malformed envelopes are refused. Bare parameter objects
+remain supported, including partial CLI configurations with documented defaults.
+Only the experiment parameters become model inputs. Prior reference seeds,
+history counts and provenance stay in the original JSON; importing them does not
+replay an OpenMC run or authenticate a reference. The original file is untouched.
+
+Open the exact URL printed by `serve`, normally http://127.0.0.1:8765. It opens no
+browser automatically. `--port 0` selects an available port; Ctrl-C stops that
+server. The interface distinguishes trained-model queries from OpenMC
+availability, and disables unavailable computation controls. `/api/status` reports
+the software version and loaded weight hash. Those hashes identify bytes; they
+do not authenticate an artifact or identify every implementation dependency.
+
+Prediction creates a numeric-only NPZ with complete configuration, fixed grid,
+energy order, units, interval scope and the hash of the exact loaded weights.
+Comparison checks those contracts against the saved field and adjacent metadata
+before reporting errors and interval diagnostics. Neither command retrains a
+model or executes a solver. Choose fresh output paths: existing predictions and
+comparison files are refused. A single saved-field comparison is not a new
+uncertainty-calibration study.
+
+## New transport calculations and expert workflows
+
+New independent references require the separate OpenMC executable and Python
+module. The complete local laboratory environment remains:
+
+```bash
 micromamba create -f environment.yml
 micromamba activate fluxatlas
 pip install -e .
 fluxatlas serve
-# Open http://127.0.0.1:8765
 ```
 
-The local interface can query the actual exported trained weights, execute new independently seeded OpenMC calculations, compare fields, and export numerical results. It binds to loopback and limits demonstration run size. OpenMC is available on conda-forge; if your platform cannot solve the environment, use an OpenMC-supported Linux/Mac environment. No external nuclear-data download is needed for the example.
+Only an OpenMC-supported environment can run a new reference. The examples use
+synthetic multigroup materials and need no external nuclear-data download.
+Existing explicit commands remain available:
 
 ```bash
 fluxatlas example --output my-reference --particles 1000
-fluxatlas predict --output my-prediction.npz
 fluxatlas validate --output benchmarks/physics --cache .cache/fluxatlas
-pytest -q
 ```
 
-A pip-only install (`pip install .`) supports archived results and trained-model inference. Running a new solver requires the separate OpenMC executable and Python module, provided by the conda environment.
+Generate, train and validation commands are expert study workflows, separate
+from frozen-weight inference. Reproduction details and the original environment
+are in [the reproducibility guide](docs/reproducibility.md). The recorded
+0.1.0 release remains a historical generation rather than a package of these
+new development changes.
 
 ## The scientific record
 

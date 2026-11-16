@@ -3,7 +3,7 @@ import argparse
 import json
 from pathlib import Path
 import sys
-import numpy as np
+from . import __version__
 from .config import Experiment
 
 
@@ -15,17 +15,47 @@ def project_root():
     raise RuntimeError("Observatory assets unavailable; use a complete release or source checkout")
 
 
+def read_experiment(path):
+    """Import bare CLI parameters or the existing schema-1 UI configuration export."""
+    document=json.loads(path.read_text())
+    if not isinstance(document,dict):
+        raise ValueError("Configuration JSON must be an object")
+    if "schema_version" in document or "config" in document:
+        if type(document.get("schema_version")) is not int or document["schema_version"] != 1:
+            raise ValueError("Unsupported exported configuration schema; expected schema_version 1")
+        if set(document) - {"schema_version","config","seed","histories","units","source"}:
+            raise ValueError("Unrecognized exported configuration fields")
+        config=document.get("config")
+        if not isinstance(config,dict) or set(config) != set(Experiment.__dataclass_fields__):
+            raise ValueError("Exported configuration requires a complete experiment config object")
+        return Experiment(**config)
+    return Experiment(**document)
+
+
 def main():
-    parser=argparse.ArgumentParser(prog="fluxatlas",description="Educational synthetic-data OpenMC transport laboratory")
-    parser.add_argument("--version",action="version",version="fluxatlas 0.1.0")
+    parser=argparse.ArgumentParser(prog="fluxatlas",
+        description="Inspect saved transport fields and query frozen numeric weights. OpenMC is optional for new references.",
+        epilog="Start without a solver: fluxatlas predict --output prediction.npz\n"
+               "Compare saved fields: fluxatlas compare --prediction prediction.npz --reference path/to/field.npz\n"
+               "The observatory binds to loopback; no browser opens automatically.",
+        formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--version",action="version",version=f"fluxatlas {__version__}")
     sub=parser.add_subparsers(dest="command",required=True)
-    serve=sub.add_parser("serve",help="Serve local observatory and validated solver API")
-    serve.add_argument("--port",type=int,default=8765);serve.add_argument("--cache",type=Path)
+    serve=sub.add_parser("serve",help="Serve saved archive and trained-model queries on loopback",
+        description="Open the printed URL yourself. Model queries need no OpenMC; new reference calculations require it. Ctrl-C stops the server.")
+    serve.add_argument("--port",type=int,default=8765,help="Loopback port (default: 8765; 0 chooses an available port)")
+    serve.add_argument("--cache",type=Path,help="Output cache for explicit OpenMC runs; archive replay and model queries do not use it")
     example=sub.add_parser("example",help="Execute a new synthetic OpenMC calculation; no nuclear-data download")
     example.add_argument("--output",type=Path,default=Path("fluxatlas-example"));example.add_argument("--particles",type=int,default=1000)
     example.add_argument("--seed",type=int,default=123457)
-    predict=sub.add_parser("predict",help="Query numeric trained weights without OpenMC")
-    predict.add_argument("--config",type=Path);predict.add_argument("--output",type=Path,default=Path("prediction.npz"))
+    predict=sub.add_parser("predict",help="Query frozen numeric trained weights without OpenMC",
+        description="Create a new portable fixed-grid prediction from the bundled weights. Does not train a model or run a solver.")
+    predict.add_argument("--config",type=Path,help="Bare experiment JSON or schema-1 UI Export configuration JSON; bare partial inputs keep documented defaults")
+    predict.add_argument("--output",type=Path,default=Path("prediction.npz"),help="New numeric NPZ path (default: prediction.npz); existing files are refused")
+    compare=sub.add_parser("compare",help="Compare portable prediction with an existing reference",
+        description="Check fixed grid, configuration, units and saved provenance before numerical diagnostics. No solver execution. Keep metadata.json beside the reference field.npz.")
+    compare.add_argument("--prediction",type=Path,required=True);compare.add_argument("--reference",type=Path,required=True)
+    compare.add_argument("--output",type=Path,help="Optional new comparison JSON; existing files are refused, stdout still contains the result")
     generate=sub.add_parser("generate",help="Generate the fixed 156-configuration dataset")
     generate.add_argument("--output",type=Path,default=Path("data"));generate.add_argument("--cache",type=Path,default=Path(".cache/fluxatlas"))
     train=sub.add_parser("train",help="Train, calibrate, evaluate and export observatory data")
@@ -35,6 +65,8 @@ def main():
     args=parser.parse_args()
     try:
         if args.command=="serve":
+            if not 0 <= args.port <= 65535:
+                raise ValueError("port must be in 0..65535 (0 selects an available loopback port)")
             from .server import serve
             return serve(project_root(),args.port,args.cache)
         if args.command=="example":
@@ -43,11 +75,19 @@ def main():
             print(json.dumps({k:v for k,v in r.items() if k not in {"mean","stderr"}},indent=2));return
         if args.command=="predict":
             from .model import FrozenSurrogate
-            cfg=Experiment(**json.loads(args.config.read_text())) if args.config else Experiment()
-            model=FrozenSurrogate(project_root()/"data/model.npz");pred,half=model.predict(cfg.vector())
-            args.output.parent.mkdir(parents=True,exist_ok=True)
-            np.savez_compressed(args.output,prediction=pred.reshape(2,20,24),halfwidth_90=half.reshape(2,20,24))
-            print(json.dumps({"kind":"new_model_prediction","output":str(args.output),"ood":bool(model.out_of_domain(cfg.vector(),cfg.family)[0]),"units":"cm^-2 per source particle"}));return
+            from .artifacts import save_prediction
+            cfg=read_experiment(args.config) if args.config else Experiment()
+            model_path=project_root()/"data/model.npz"
+            model=FrozenSurrogate(model_path);pred,half=model.predict(cfg.vector())
+            if float(model.state.get("alpha",.1)) != .1:raise ValueError("Prediction export requires the supported 90% interval contract")
+            metadata=save_prediction(args.output,cfg,pred.reshape(2,20,24),half.reshape(2,20,24),model.sha256,
+                                     model.out_of_domain(cfg.vector(),cfg.family)[0])
+            print(json.dumps({**metadata,"output":str(args.output)}));return
+        if args.command=="compare":
+            from .artifacts import compare_fields,save_comparison
+            result=compare_fields(args.prediction,args.reference)
+            if args.output:save_comparison(args.output,result)
+            print(json.dumps(result,allow_nan=False,indent=2));return
         if args.command=="generate":
             from .dataset import generate
             return generate(args.output,args.cache)
@@ -57,7 +97,7 @@ def main():
         if args.command=="validate":
             from .validation import validate
             validate(args.output,args.cache);return
-    except (RuntimeError,ValueError,TypeError,OSError) as exc:
+    except (RuntimeError,ValueError,TypeError,KeyError,OSError) as exc:
         parser.exit(2,f"fluxatlas: {exc}\n")
 
 if __name__=="__main__":main()
