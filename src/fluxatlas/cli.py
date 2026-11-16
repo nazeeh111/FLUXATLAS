@@ -3,7 +3,6 @@ import argparse
 import json
 from pathlib import Path
 import sys
-import numpy as np
 from .config import Experiment
 
 
@@ -26,6 +25,9 @@ def main():
     example.add_argument("--seed",type=int,default=123457)
     predict=sub.add_parser("predict",help="Query numeric trained weights without OpenMC")
     predict.add_argument("--config",type=Path);predict.add_argument("--output",type=Path,default=Path("prediction.npz"))
+    compare=sub.add_parser("compare",help="Check a portable prediction against an existing OpenMC field.npz")
+    compare.add_argument("--prediction",type=Path,required=True);compare.add_argument("--reference",type=Path,required=True)
+    compare.add_argument("--output",type=Path)
     generate=sub.add_parser("generate",help="Generate the fixed 156-configuration dataset")
     generate.add_argument("--output",type=Path,default=Path("data"));generate.add_argument("--cache",type=Path,default=Path(".cache/fluxatlas"))
     train=sub.add_parser("train",help="Train, calibrate, evaluate and export observatory data")
@@ -43,11 +45,19 @@ def main():
             print(json.dumps({k:v for k,v in r.items() if k not in {"mean","stderr"}},indent=2));return
         if args.command=="predict":
             from .model import FrozenSurrogate
+            from .artifacts import save_prediction
             cfg=Experiment(**json.loads(args.config.read_text())) if args.config else Experiment()
-            model=FrozenSurrogate(project_root()/"data/model.npz");pred,half=model.predict(cfg.vector())
-            args.output.parent.mkdir(parents=True,exist_ok=True)
-            np.savez_compressed(args.output,prediction=pred.reshape(2,20,24),halfwidth_90=half.reshape(2,20,24))
-            print(json.dumps({"kind":"new_model_prediction","output":str(args.output),"ood":bool(model.out_of_domain(cfg.vector(),cfg.family)[0]),"units":"cm^-2 per source particle"}));return
+            model_path=project_root()/"data/model.npz"
+            model=FrozenSurrogate(model_path);pred,half=model.predict(cfg.vector())
+            if float(model.state.get("alpha",.1)) != .1:raise ValueError("Prediction export requires the supported 90% interval contract")
+            metadata=save_prediction(args.output,cfg,pred.reshape(2,20,24),half.reshape(2,20,24),model.sha256,
+                                     model.out_of_domain(cfg.vector(),cfg.family)[0])
+            print(json.dumps({**metadata,"output":str(args.output)}));return
+        if args.command=="compare":
+            from .artifacts import compare_fields,save_comparison
+            result=compare_fields(args.prediction,args.reference)
+            if args.output:save_comparison(args.output,result)
+            print(json.dumps(result,allow_nan=False,indent=2));return
         if args.command=="generate":
             from .dataset import generate
             return generate(args.output,args.cache)
@@ -57,7 +67,7 @@ def main():
         if args.command=="validate":
             from .validation import validate
             validate(args.output,args.cache);return
-    except (RuntimeError,ValueError,TypeError,OSError) as exc:
+    except (RuntimeError,ValueError,TypeError,KeyError,OSError) as exc:
         parser.exit(2,f"fluxatlas: {exc}\n")
 
 if __name__=="__main__":main()

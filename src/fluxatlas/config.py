@@ -2,7 +2,6 @@
 from dataclasses import asdict, dataclass
 import hashlib
 import json
-import math
 import numpy as np
 
 GROUP_EDGES = [1.e-5, 1.e3, 2.e7]  # tally output is slow then fast
@@ -23,8 +22,9 @@ class Experiment:
 
     def __post_init__(self):
         for name, (lo, hi) in zip(PARAMETERS, BOUNDS):
+            lo, hi = float(lo), float(hi)
             value = getattr(self, name)
-            if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value):
+            if isinstance(value, bool) or not isinstance(value, (int, float)):
                 raise ValueError(f"{name} must be a finite number")
             if not lo <= value <= hi:
                 raise ValueError(f"{name} must lie in [{lo}, {hi}]")

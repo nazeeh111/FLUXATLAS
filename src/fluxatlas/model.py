@@ -137,7 +137,13 @@ def save_model(model, path):
 class FrozenSurrogate:
     """Read numeric weights only. No deserialization of executable Python objects."""
     def __init__(self,path):
-        self.state=dict(np.load(path,allow_pickle=False))
+        import hashlib
+        import io
+        from pathlib import Path
+        content = Path(path).read_bytes()
+        self.sha256 = hashlib.sha256(content).hexdigest()
+        with np.load(io.BytesIO(content), allow_pickle=False) as arrays:
+            self.state = dict(arrays)
         self.calibration_factor=float(self.state["calibration_factor"])
     def predict(self,x,calibrated=True):
         s=self.state;x=np.atleast_2d(x);baseline=0.

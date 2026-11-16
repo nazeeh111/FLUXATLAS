@@ -57,6 +57,51 @@ A field reshapes to `[2,20,24]`: slow then fast; y then x, with x increasing fas
 
 Use the observatory export buttons for configuration JSON, per-cell numerical CSV or the complete research JSON archive. The CSV includes group energy boundaries and coordinates. New local predictions are not added to the released study, and a reference remains absent until OpenMC actually runs.
 
+## Portable predictions and checked comparisons
+
+```bash
+fluxatlas predict --config experiment.json --output results/prediction.npz
+fluxatlas compare --prediction results/prediction.npz \
+  --reference .cache/fluxatlas/EXACT-RUN-KEY/field.npz \
+  --output results/comparison.json
+```
+
+Use the exact experiment configuration for both files. The reference directory
+must retain the adapter's adjacent `metadata.json`. `compare` does not run OpenMC.
+It checks the fixed `[slow/fast, y, x]` grid, energy edges, units and configuration,
+and rejects malformed/nonfinite/negative fields. Numeric archives are bounded
+before allocation and loaded without pickle; only stored/deflate ZIP compression
+is supported. Persisted configurations must contain all five fields. Explicit
+coordinate/order declarations must agree on both sides. Older references without
+coordinates need the released schema-1 adapter fingerprint or the exact current
+adapter/config/solver-version fingerprint. Unknown legacy grids are refused.
+Reference normalization must be volume-mean flux per source particle.
+A legacy prediction containing
+only arrays cannot establish the missing configuration: regenerate that
+prediction with the same numeric weights rather than guessing its provenance.
+
+The prediction preserves the existing `prediction` and `halfwidth_90` arrays
+and adds a Unicode `metadata_json` scalar. It records model SHA256, grid edges,
+configuration, domain status and interval scope. Read with
+`np.load(path, allow_pickle=False)` in a context manager. Output paths are exact,
+including non-`.npz` suffixes; no implicit filename extension is added. Publication
+uses a complete same-filesystem temporary file and an exclusive hard link.
+Existing files and symbolic links, including concurrent destinations, are not
+replaced. This is no-clobber publication, not a power-loss-durable database.
+The model digest comes from the same immutable weight bytes used for inference,
+even if the weight pathname is replaced during a query. It identifies numeric
+weights, not every Python implementation/dependency in the inference pipeline.
+
+Comparison JSON includes hashes of the exact loaded artifact bytes, relative L2
+error, per-energy errors, reference-relative standard error, resolved-cell
+diagnostics and interval inclusion. A zero reference norm or unrepresentable
+ratio is `null`, not NaN or a fabricated score. Resolved cells mean
+`reference > 3 × standard error`. Interval inclusion against one finite-history
+reference is descriptive, not independent physical validation, a coverage study,
+or a new performance result. Out-of-domain intervals remain unqualified.
+Metadata/hashes are local declarations, not signatures or authentication of an
+arbitrary external file's claimed solver origin.
+
 ## Optional higher-fidelity work
 
 Continuous-energy neutron/photon cases require suitable evaluated cross sections under their own licenses. This release intentionally makes no such result. A defensible extension must document the library/version, material compositions, source spectrum, temperatures, energy/mesh convergence and normalization, then independently compare to the synthetic benchmark and rerun training/calibration for the new domain. CAD/DAGMC requires separate validated geometry preparation. Neither feature is silently activated by the existing interface.

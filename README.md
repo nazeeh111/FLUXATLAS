@@ -35,11 +35,19 @@ The local interface can query the actual exported trained weights, execute new i
 ```bash
 fluxatlas example --output my-reference --particles 1000
 fluxatlas predict --output my-prediction.npz
+fluxatlas compare --prediction my-prediction.npz --reference path/to/run/field.npz --output comparison.json
 fluxatlas validate --output benchmarks/physics --cache .cache/fluxatlas
 pytest -q
 ```
 
 A pip-only install (`pip install .`) supports archived results and trained-model inference. Running a new solver requires the separate OpenMC executable and Python module, provided by the conda environment.
+
+Prediction exports are portable numeric-only NPZ files containing the configuration,
+grid, energy order, units, interval scope and model SHA256 alongside the arrays.
+`compare` checks those contracts against a saved OpenMC `field.npz` and its adjacent
+`metadata.json` before reporting errors and interval diagnostics. It needs no solver
+execution. Choose fresh output paths: prediction and comparison exports never replace
+existing files. A single comparison is not a new uncertainty-calibration study.
 
 ## The scientific record
 
