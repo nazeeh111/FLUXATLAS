@@ -148,8 +148,8 @@ def test_cli_uses_real_released_weights_and_refuses_overwrite(tmp_path):
     mean, half, metadata = load_prediction(output)
     assert mean.shape == half.shape == SHAPE
     assert metadata["out_of_domain"] is False
-    from fluxatlas.cli import project_root
-    reference = project_root() / "examples/reference/018aaf1e873bfacdc6f5/field.npz"
+    # The recorded reference is a source test fixture, not a wheel runtime asset.
+    reference = Path(__file__).resolve().parents[1] / "examples/reference/018aaf1e873bfacdc6f5/field.npz"
     comparison = compare_fields(output, reference)
     assert comparison["reference_grid_contract"] == "fixed grid verified against adapter fingerprint"
     assert comparison["relative_l2"] is not None

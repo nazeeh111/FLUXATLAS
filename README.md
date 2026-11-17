@@ -30,6 +30,12 @@ fluxatlas serve
 # Open http://127.0.0.1:8765
 ```
 
+On Apple silicon, OpenMC's supported Conda installation uses the Intel platform
+through Rosetta. With Rosetta already available, replace the environment creation
+line above with `micromamba create --platform osx-64 -f environment.yml`.
+This is an Intel Mac environment, not a native ARM solver build. See the
+[official OpenMC installation guide](https://docs.openmc.org/en/stable/usersguide/install.html).
+
 The local interface can query the actual exported trained weights, execute new independently seeded OpenMC calculations, compare fields, and export numerical results. It binds to loopback and limits demonstration run size. OpenMC is available on conda-forge; if your platform cannot solve the environment, use an OpenMC-supported Linux/Mac environment. No external nuclear-data download is needed for the example.
 
 ```bash
@@ -48,6 +54,16 @@ grid, energy order, units, interval scope and model SHA256 alongside the arrays.
 `metadata.json` before reporting errors and interval diagnostics. It needs no solver
 execution. Choose fresh output paths: prediction and comparison exports never replace
 existing files. A single comparison is not a new uncertainty-calibration study.
+
+While a local query or reference is running, you can adjust geometry or select an
+archived case. Newer geometry stays a draft until computed; completed field maps
+keep their own configuration. A late result cannot replace a newer case selection.
+Every new reference uses a prediction for the same configuration. CSV and
+configuration exports describe the completed fields, not an uncomputed draft.
+
+Controller regression checks use Node's built-in test runner:
+`node --test tests/live-state.test.cjs`. They use a controlled transport and do
+not validate physics; the Python `openmc` tests exercise the live solver.
 
 ## The scientific record
 

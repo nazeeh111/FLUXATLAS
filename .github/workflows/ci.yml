@@ -12,8 +12,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+          package-manager-cache: false
       - run: pip install '.[test]'
       - run: pytest -m 'not openmc' -q
+      - name: Verify browser result ownership
+        run: node --test tests/live-state.test.cjs
       - run: fluxatlas predict --output /tmp/prediction.npz
       - run: python -m build
   openmc:
