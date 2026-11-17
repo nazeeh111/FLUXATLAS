@@ -1,0 +1,29 @@
+{
+  "source_commit": "f69bfdc9e8bd12efaa49ab3cf35620afdcdffd45",
+  "case": "test-120",
+  "cells_per_data_panel": 480,
+  "six_panels_per_figure": true,
+  "field_scale": {
+    "kind": "shared LogNorm across all four reference/model panels",
+    "vmin": 7.995328384541721e-05,
+    "vmax": 0.898199371996743,
+    "zeros": "gray"
+  },
+  "signed_error_scale": {
+    "kind": "shared linear symmetric",
+    "vmin": -0.061849822404955984,
+    "vmax": 0.061849822404955984
+  },
+  "raw_source_hashes": {
+    "case.json": "13d45d4b4e63941b5d2fcbf4d1ea383322bab084cb41ad0ce0ea1d1574f5f0b1",
+    "prediction.npz": "4159a839cfb2e9d1e1236a99109b3f1f9fcb294ff337869f4e7a973e39ce6217",
+    "checks.json": "6ce301e475b83db51e5e68bd6b206db82f2730fb4c91a8eecac8f6fc68f847a0",
+    "figure.py": "02f7606abcef9fb54dd7b08b46a23a82c63025883758a26aadfd80a932893297"
+  },
+  "exports": {
+    "group-error.png": "f11dde86ba92fd9fe5fb97bad69efd357ab78d4437e8dd966f54d257191144b1",
+    "group-error.svg": "104f37c7f771d6ddb90086fb8c0854a5657a58f03bab6dfa9ab204a9afb1a661",
+    "group-error-mobile.png": "11e8dbc1b01930b69f4366bdf6634a109ffb476c60b42de7ac5f14e987910920",
+    "group-error-mobile.svg": "e23b95de21f91d84f2037e8f8cecfe9fa2f0b3fdd3e5577c8c7cffa416fcef61"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "config": {
+    "thickness": 2.5879317815422658,
+    "density_scale": 0.6240935019014224,
+    "source_y": -2.156731048555405,
+    "fast_fraction": 0.8847042703328929,
+    "family": "solid"
+  },
+  "seed": 3012841,
+  "histories": 40000,
+  "units": "cm^-2 per source particle",
+  "source": "FLUXATLAS educational synthetic multigroup benchmark"
+}
