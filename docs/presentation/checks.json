@@ -1,0 +1,34 @@
+{
+  "case": "test-120",
+  "grid_shape": [
+    2,
+    20,
+    24
+  ],
+  "cells_per_group": 480,
+  "retained_reference_dataset_keys": [
+    "high"
+  ],
+  "reference_is_retained_not_new_solver_execution": true,
+  "fresh_prediction_matches_archive_exactly": true,
+  "relative_l2": 0.055599010012560325,
+  "group_relative_l2": [
+    0.21661634236664917,
+    0.03861603670392491
+  ],
+  "whole_field_interval_covered": true,
+  "cell_interval_coverage": 1.0,
+  "mean_halfwidth_over_mean_reference": 1.8762027664917922,
+  "zero_prediction_cells": 2,
+  "max_absolute_signed_error": 0.061849822404955984,
+  "source_commit": "f69bfdc9e8bd12efaa49ab3cf35620afdcdffd45",
+  "source_tree": "debb5cb91c7ea0e65e57f97411e720391d9f1c2d",
+  "model_sha256": "a5af41901998e85cff727de7d6ee051a8026d3558f69c22f0894a43d398f58cd",
+  "sources": {
+    "web/atlas.json": "61fb3a81f319351f3d576280e23649edd6bb5ff90455373ab2767b532646fd9f",
+    "data/fields.npz": "d61f0b85ae6a366fc8de23904f975c91243c94654539d9e0bc561320f247a3a6",
+    "data/reference-metadata.json": "f730c454a0986dbf63074f3e4f3adf28b440aed3cdc4b4c2eee156e2ba75a0fd",
+    "src/fluxatlas/model.py": "4b553bb7495c1a5bf0ab78b40af13a05e57e4ddb5231fb3721280d6297734247",
+    "src/fluxatlas/artifacts.py": "cb5ef84e671176f376b61facbd5036b9b36d0844273b0c2c7f5e705445cf1bb4"
+  }
+}

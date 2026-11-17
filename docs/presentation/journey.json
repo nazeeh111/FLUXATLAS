@@ -1,0 +1,32 @@
+{
+  "caseId": "test-120",
+  "archiveReopened": true,
+  "configurationAndCSVDownloaded": true,
+  "previewRetainsPriorComputedFields": true,
+  "geometryArrowKeyChangesView": true,
+  "energyKeyboardWorks": true,
+  "newAPIQueryMatchesSavedPredictionWithin1e12": true,
+  "maxPredictionDelta": 6.744604874597826e-15,
+  "newQueryClearsPriorReference": true,
+  "controlledFailedQueryRetainsPriorModel": true,
+  "actualInvalidAPI": {
+    "status": 400,
+    "body": {
+      "error": "thickness must lie in [1.0, 5.0]"
+    }
+  },
+  "oodWarning": "Outside the supported geometry family. This prediction is a failure probe; interval calibration does not apply.",
+  "viewport": {
+    "width": 390,
+    "scroll": 390
+  },
+  "apiStatus": {
+    "prediction": true,
+    "solver": false,
+    "mode": "local",
+    "interval_level": 0.9,
+    "version": "0.1.1.dev0",
+    "model_sha256": "a5af41901998e85cff727de7d6ee051a8026d3558f69c22f0894a43d398f58cd"
+  },
+  "errors": []
+}

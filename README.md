@@ -6,9 +6,21 @@
 
 Inspect saved OpenMC results beside a trained spatial surrogate, including their errors and uncertainty. The educational shielding examples use synthetic materials; new transport calculations run in the local OpenMC environment.
 
+<picture>
+  <source media="(max-width: 600px)" srcset="docs/presentation/group-error-mobile.png">
+  <img src="docs/presentation/group-error.png" alt="All slow and fast field cells: retained OpenMC reference, fresh frozen-weight prediction and signed difference. Combined error 5.56% hides 21.66% slow-group error; fields and signed errors use shared scales." width="100%">
+</picture>
+
+**5.56% overall. 21.66% in the slow group.** The first archived case exposes why one aggregate is not enough. Export its configuration, query the retained weights and reopen the numerical comparison. Wide intervals cover this field; that alone does not make them useful. [Follow the actual workflow and inspect every cell](docs/presentation/README.md).
+
+<details>
+<summary>Recorded observatory overview</summary>
+
 ![Current FluxAtlas observatory showing retained archive case test-120](media/observatory-current.png)
 
 [Capture provenance](media/observatory-current.md) · Retained independent reference, educational synthetic data; no new OpenMC execution.
+
+</details>
 
 [Open the observatory](https://nazeeh111.github.io/FLUXATLAS/) · [Technical report](docs/technical-report.md) · [Reproduce the experiments](docs/reproducibility.md) · [Research foundations](docs/research-foundations.md) · [Launch film](media/brag.mp4) · [Versioned release](https://github.com/nazeeh111/FLUXATLAS/releases/tag/v0.1.0)
 
