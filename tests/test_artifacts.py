@@ -153,6 +153,13 @@ def test_cli_uses_real_released_weights_and_refuses_overwrite(tmp_path):
     comparison = compare_fields(output, reference)
     assert comparison["reference_grid_contract"] == "fixed grid verified against adapter fingerprint"
     assert comparison["relative_l2"] is not None
+    bundled = subprocess.run(
+        [sys.executable, "-m", "fluxatlas.cli", "compare", "--prediction", str(output),
+         "--example-reference"],
+        cwd=tmp_path, capture_output=True, text=True,
+    )
+    assert bundled.returncode == 0, bundled.stderr
+    assert json.loads(bundled.stdout) == comparison
     original = output.read_bytes()
     second = subprocess.run(command, capture_output=True, text=True)
     assert second.returncode == 2 and "already exists" in second.stderr

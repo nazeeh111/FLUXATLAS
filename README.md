@@ -49,24 +49,24 @@ geometry uses synthetic materials.
 
 ## Query the retained weights and compare saved fields
 
-A pip-only installation supports inference and comparison without OpenMC:
+Install from a complete checkout with `python3 -m pip install .`, or install a built wheel with
+`python3 -m pip install /path/to/fluxatlas.whl` (use the actual wheel filename).
+Then run the following commands from any directory:
 
 ```bash
-python3 -m pip install .
 fluxatlas --version
 fluxatlas predict --output my-prediction.npz
 fluxatlas compare --prediction my-prediction.npz \
-  --reference examples/reference/018aaf1e873bfacdc6f5/field.npz \
+  --example-reference \
   --output comparison.json
 fluxatlas serve
 ```
 
-Run those commands from the complete checkout so the saved reference example is
-available. The installed wheel bundles the observatory, model weights, primary
-data arrays and Markdown methods; it does not place the repository's examples
-or historical research directories in your working directory. From elsewhere,
-pass the absolute path to an existing reference and keep its metadata.json
-alongside it. Prediction uses the installed package's bundled numeric weights.
+The wheel includes
+the default experiment’s reference field and its metadata alongside the model
+and observatory. To compare a different experiment, pass `--reference PATH`
+and keep its `metadata.json` alongside the field. The comparison checks the
+configuration, grid and units for either input.
 
 The observatory's **Export configuration** JSON can be passed directly to
 `fluxatlas predict --config exported-configuration.json --output new-field.npz`.
