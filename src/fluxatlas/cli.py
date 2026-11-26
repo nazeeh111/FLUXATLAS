@@ -36,7 +36,7 @@ def main():
     parser=argparse.ArgumentParser(prog="fluxatlas",
         description="Inspect saved transport fields and query frozen numeric weights. OpenMC is optional for new references.",
         epilog="Start without a solver: fluxatlas predict --output prediction.npz\n"
-               "Compare saved fields: fluxatlas compare --prediction prediction.npz --reference path/to/field.npz\n"
+               "Check the default experiment: fluxatlas compare --prediction prediction.npz --example-reference\n"
                "The observatory binds to loopback; no browser opens automatically.",
         formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--version",action="version",version=f"fluxatlas {__version__}")
@@ -54,7 +54,11 @@ def main():
     predict.add_argument("--output",type=Path,default=Path("prediction.npz"),help="New numeric NPZ path (default: prediction.npz); existing files are refused")
     compare=sub.add_parser("compare",help="Compare portable prediction with an existing reference",
         description="Check fixed grid, configuration, units and saved provenance before numerical diagnostics. No solver execution. Keep metadata.json beside the reference field.npz.")
-    compare.add_argument("--prediction",type=Path,required=True);compare.add_argument("--reference",type=Path,required=True)
+    compare.add_argument("--prediction", type=Path, required=True)
+    reference = compare.add_mutually_exclusive_group(required=True)
+    reference.add_argument("--reference", type=Path, help="Saved reference field with adjacent metadata.json")
+    reference.add_argument("--example-reference", action="store_true",
+                           help="Use the bundled reference for the default experiment")
     compare.add_argument("--output",type=Path,help="Optional new comparison JSON; existing files are refused, stdout still contains the result")
     generate=sub.add_parser("generate",help="Generate the fixed 156-configuration dataset")
     generate.add_argument("--output",type=Path,default=Path("data"));generate.add_argument("--cache",type=Path,default=Path(".cache/fluxatlas"))
@@ -85,7 +89,10 @@ def main():
             print(json.dumps({**metadata,"output":str(args.output)}));return
         if args.command=="compare":
             from .artifacts import compare_fields,save_comparison
-            result=compare_fields(args.prediction,args.reference)
+            reference = args.reference
+            if args.example_reference:
+                reference = project_root() / "examples/reference/018aaf1e873bfacdc6f5/field.npz"
+            result = compare_fields(args.prediction, reference)
             if args.output:save_comparison(args.output,result)
             print(json.dumps(result,allow_nan=False,indent=2));return
         if args.command=="generate":
